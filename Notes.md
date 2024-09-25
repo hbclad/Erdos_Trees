@@ -12,7 +12,7 @@ The purpose of this section is to explore and summarize previous Erdös and Acad
 Note: This project is likely most similar to what we could be doing, but I think we've veered in a slightly different direction. Please correct me (Ella) if I'm wrong. 
 
 ### Our Project
-**Research Question:** Can we predict how a forest regenerates following a fire given the soil make up and previous bio-diversity? 
+**Research Question:** Can we predict how a forest regenerates following a fire given the soil make up and previous bio-diversity?   
 **Project Plan:** We plan to investigate if we can can predict forest regeneration via the bio-diversity data in trees (potentially also insects/birds but potentially trees might be enough -- OR if we could find some biodiversity index, mathematically?) follwoing a forest fire. We plan to investigate geographical areas in the United States where major fires are present, such as Washington, Oregon, & Idaho. 
 
 **Links to Data Sets**:
