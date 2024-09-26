@@ -17,7 +17,9 @@ Note: This project is likely most similar to what we could be doing, but I think
 
 **Links to Data Sets**:
 
-**General Observations/Notes**
+**General Observations/Notes**  
+Everyone should give this a read and we may be able to use some the results for our project: https://www.mdpi.com/1999-4907/14/4/709.  
+Here's what my thought had been, if we could find some sort of mathematical formula for an index of biodiversity in a given area, we could then compile data to understand that index and see how that index changes after a fire. This would encompass trees, wildlife, soil quality etc since the entire ecosystem relies on each of these things. The paper focuses primarily on forest ecosystems which would fit our project well.  
 
 
 
