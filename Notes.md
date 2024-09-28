@@ -11,6 +11,9 @@ The purpose of this section is to explore and summarize previous Erdös and Acad
 **Predicting Forest Cover Types and Visualizing Data** *Team 71, Fall 2023* The goal of this project was to, given a current map of forest data, can we predict future tree covers and what is the minimal amount of data we need to predict this. They used a topological based algorithm, which is actually really interesting.
 Note: This project is likely most similar to what we could be doing, but I think we've veered in a slightly different direction. Please correct me (Ella) if I'm wrong. 
 
+**Predicting Wildfire Spread** *Team 78, Fall 2022* The goal of this project was to predict where wildfires will spread once started using features like windspeed/wind direction/previous fire perimeter and minimum temperature. They used a convolutional neural network. 
+
+
 ### Our Project
 **Research Question:** Can we predict how a forest regenerates following a fire given the soil make up and previous bio-diversity?   
 **Project Plan:** We plan to investigate if we can can predict forest regeneration via the bio-diversity data in trees (potentially also insects/birds but potentially trees might be enough -- OR if we could find some biodiversity index, mathematically?) follwoing a forest fire. We plan to investigate geographical areas in the United States where major fires are present, such as Washington, Oregon, & Idaho. 
