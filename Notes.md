@@ -19,6 +19,7 @@ Note: This project is likely most similar to what we could be doing, but I think
 **Project Plan:** We plan to investigate if we can can predict forest regeneration via the bio-diversity data in trees (potentially also insects/birds but potentially trees might be enough -- OR if we could find some biodiversity index, mathematically?) follwoing a forest fire. We plan to investigate geographical areas in the United States where major fires are present, such as Washington, Oregon, & Idaho. 
 
 **Links to Data Sets**:
+
 "Mapping recovery in the Thomas Fire Scar": https://www.gbif.org/dataset/e09a772e-f755-4738-a2d4-f84db79971b2
 This seems relevant, although it's highly specific.
 
