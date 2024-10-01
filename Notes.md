@@ -31,7 +31,17 @@ This (https://research.fs.usda.gov/sites/default/files/2024-07/wo-17827_forest_s
 
 **Work Done Thus Far**  
 This section outlines work done this far by each group member with a summary.  
-In the "Data Analysis" folder of this repo, Henry has a doc called "DA.ipynb" wherein he includes the "WA_PLOT" data from the FIA Datamart. The NB contains 3 figures from the "WA_PLOT" dataset. These figures depict where FIA Plots of studied land are. These plots are overlaid onto geographical maps of Washington and line up with the Cascade mountian and forest areas. They are also given below, and would serve as our geographical area of interest.  **TO BE CONTINUED**
+In the "Data Analysis" folder of this repo, Henry has a doc called "DA.ipynb" wherein he includes the "WA_PLOT" data from the FIA Datamart. The NB contains 3 figures from the "WA_PLOT" dataset. These figures depict where FIA Plots of studied land are. These plots are overlaid onto geographical maps of Washington and line up with the Cascade mountian and forest areas. They are given below, and would serve as our geographical area of interest. 
+![alt text](https://github.com/hbclad/Erdos_trees/blob/main/figures/data_overlay1.png?raw=true)
+This figure shows geographically on a rough outline of the west coast of the United States where the research plots that generate the data in "WA_PLOT" lie. 
+![alt text](https://github.com/hbclad/Erdos_trees/blob/main/figures/data_overlay2.png?raw=true)
+This figure shows geographically, where data was collected via remote sensing on a map of the state of WA. 
+![alt text](https://github.com/hbclad/Erdos_trees/blob/main/figures/data_overlay3.png?raw=true)
+This, while essantially the same as the previous, shows data where researchers collected plot data in the field. These are distinguhed via sampling method form in the dataset. 
+
+
+
+
 
 
 
