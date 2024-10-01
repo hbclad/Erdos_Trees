@@ -19,7 +19,6 @@ Note: This project is likely most similar to what we could be doing, but I think
 **Project Plan:** We plan to investigate if we can can predict forest regeneration via the bio-diversity data in trees (potentially also insects/birds but potentially trees might be enough -- OR if we could find some biodiversity index, mathematically?) follwoing a forest fire. We plan to investigate geographical areas in the United States where major fires are present, such as Washington, Oregon, & Idaho. 
 
 **Links to Data Sets**:
-
 "Mapping recovery in the Thomas Fire Scar": https://www.gbif.org/dataset/e09a772e-f755-4738-a2d4-f84db79971b2
 This seems relevant, although it's highly specific.
 
@@ -29,6 +28,11 @@ Here's what my thought had been, if we could find some sort of mathematical form
 
 This (https://research.fs.usda.gov/sites/default/files/2024-07/wo-17827_forest_service_forest_ecosystem_health_indicators_508.pdf) is also worth a read from a stakeholders perspective in this project as well as forest health indicators. I think I've got an idea for our direction that I'll pitch in an edit to the research question/project plan section of this document. (-Ella)  
     Furthermore this document covers essantially what all of the data in the FIA Datamart is, where we're concerned is forest regenration following a fire, for which they don't have a ton of data. Much of the FIA project following regenration has been focused on the Midwest and Northeast regions of the United States where forest decimation has occured due to human and natural impacts, inlcuding but not limited to unsustainable mining and forestry practices, invasive species, human stated fires (mostly Midwest) etc (pages 20-21 cover this well). This can dictate where our project goes given that there is a TON of forestry data for WA and the PNW as well as soil data. Potentially building an indicator based on soil make up and forest health before a fire as a predictor of regenration after a fire could be interesting. With regard to soil, things such as dead fall (leaves, trees, other organic material) can affect the quality as organic matter adds nitrogen back into the soil, we can also look at water retention and the other variables they include in the FIA soil survey. I plan to also attempt to cross reference with USGS if I can find a similar range. While I think bio-diversity is an excellent indicator of forest health, it may be too broad and require too much data mining to be productive in this project. 
+
+**Work Done Thus Far**  
+This section outlines work done this far by each group member with a summary.  
+In the "Data Analysis" folder of this repo, Henry has a doc called "DA.ipynb" wherein he includes the "WA_PLOT" data from the FIA Datamart. The NB contains 3 figures from the "WA_PLOT" dataset. These figures depict where FIA Plots of studied land are. These plots are overlaid onto geographical maps of Washington and line up with the Cascade mountian and forest areas. They are also given below, and would serve as our geographical area of interest.  **TO BE CONTINUED**
+
 
 
 
