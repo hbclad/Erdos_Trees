@@ -25,7 +25,9 @@ This seems relevant, although it's highly specific.
 
 **General Observations/Notes**  
 Everyone should give this a read and we may be able to use some the results for our project: https://www.mdpi.com/1999-4907/14/4/709.  
-Here's what my thought had been, if we could find some sort of mathematical formula for an index of biodiversity in a given area, we could then compile data to understand that index and see how that index changes after a fire. This would encompass trees, wildlife, soil quality etc since the entire ecosystem relies on each of these things. The paper focuses primarily on forest ecosystems which would fit our project well.  
+Here's what my thought had been, if we could find some sort of mathematical formula for an index of biodiversity in a given area, we could then compile data to understand that index and see how that index changes after a fire. This would encompass trees, wildlife, soil quality etc since the entire ecosystem relies on each of these things. The paper focuses primarily on forest ecosystems which would fit our project well.   
+
+This (https://research.fs.usda.gov/sites/default/files/2024-07/wo-17827_forest_service_forest_ecosystem_health_indicators_508.pdf) is also worth a read from a stakeholders perspective in this project as well as forest health indicators. I think I've got an idea for our direction that I'll pitch in an edit to the research question/project plan section of this document. (-Ella)
 
 
 
