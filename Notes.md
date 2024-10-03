@@ -46,6 +46,10 @@ This figure shows geographically, where data was collected via remote sensing on
 This, while essantially the same as the previous, shows data where researchers collected plot data in the field. These are distinguhed via sampling method form in the dataset. 
 
 
+Historical fire data here: https://www.ncei.noaa.gov/products/paleoclimatology/fire-history
+once they recover from the hurricane.
+
+
 
 
 
