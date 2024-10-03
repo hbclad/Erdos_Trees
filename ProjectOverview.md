@@ -1,9 +1,11 @@
-Stakeholders: Forestry service, disaster mitigation groups, commercial logging, environmentalists
+### Stakeholders:
+Forestry service, disaster mitigation groups, commercial logging, environmentalists
 
-KPIs: Comparing our predicted tree diameter/height/crown health vs actual historical data after fires
+### KPIs:
+Comparing our predicted tree diameter/height/crown health vs actual historical data after fires
 
 
-Datasets:
+### Datasets:
 
 FIA Datamart Washington data (maybe other states too?)
 
