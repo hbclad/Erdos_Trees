@@ -23,6 +23,13 @@ Note: This project is likely most similar to what we could be doing, but I think
 "Mapping recovery in the Thomas Fire Scar": https://www.gbif.org/dataset/e09a772e-f755-4738-a2d4-f84db79971b2
 This seems relevant, although it's highly specific.
 
+Another potential dataset: Fire and tree mortality database https://www.fs.usda.gov/rds/archive/catalog/RDS-2020-0001-2
+
+Highly specific to two regions in Washington but with alot of good data like density of different species X years after a fire.  https://www.fs.usda.gov/rds/archive/catalog/RDS-2020-0079
+
+
+"Wildfire severity and postfire salvage harvest effects on long-term forest regeneration": Field attributes and satellite data for "How vegetation recovery and fuel conditions in past fires influences fuels and future fire management in five western U.S. ecosystems" (2nd Edition).  Looks at long term effects. https://www.fs.usda.gov/rds/archive/catalog/RDS-2019-0005-2
+
 **General Observations/Notes**  
 Everyone should give this a read and we may be able to use some the results for our project: https://www.mdpi.com/1999-4907/14/4/709.  
 Here's what my thought had been, if we could find some sort of mathematical formula for an index of biodiversity in a given area, we could then compile data to understand that index and see how that index changes after a fire. This would encompass trees, wildlife, soil quality etc since the entire ecosystem relies on each of these things. The paper focuses primarily on forest ecosystems which would fit our project well.   
