@@ -11,8 +11,8 @@ Comparing our predicted tree diameter/height/crown health vs actual historical d
 
 FIA Datamart Washington data (maybe other states too?): https://research.fs.usda.gov/products/dataandtools/tools/fia-datamart
 
-NOAA historical fire data (once it is accessible again - will need to check how extensive their data is)
+NOAA historical fire data: https://www.ncei.noaa.gov/products/paleoclimatology/fire-history
+
+(If needed) NIFC historical fire data: https://data-nifc.opendata.arcgis.com/search?tags=historic_wildlandfire_opendata%2CCategory
 
 USDA Research Data Archive - fire recovery study in Maine
-
-Any others I'm forgetting?
