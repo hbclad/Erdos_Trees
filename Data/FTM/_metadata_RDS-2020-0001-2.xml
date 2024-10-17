@@ -1,0 +1,1204 @@
+<?xml-stylesheet href='C:\LSP Program Files\Metavist_2021\XML\NBII_classic.xsl' type='text/xsl'?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Cansler, C. Alina</origin>
+        <origin>Hood, Sharon M.</origin>
+        <origin>Varner, J. Morgan</origin>
+        <origin>van Mantgem, Phillip J.</origin>
+        <origin>Agne, Michelle C.</origin>
+        <origin>Andrus, Robert A.</origin>
+        <origin>Ayres, Matthew P.</origin>
+        <origin>Ayres, Bruce D.</origin>
+        <origin>Bakker, Jonathan D.</origin>
+        <origin>Battaglia, Michael A.</origin>
+        <origin>Bentz, Barbara J.</origin>
+        <origin>Breece, Carolyn R.</origin>
+        <origin>Brown, James K.</origin>
+        <origin>Cluck, Daniel R.</origin>
+        <origin>Coleman, Tom W.</origin>
+        <origin>Corace, R. Gregory</origin>
+        <origin>Covington, W. Wallace</origin>
+        <origin>Cram, Douglas S.</origin>
+        <origin>Cronan, James B.</origin>
+        <origin>Crouse, Joseph E.</origin>
+        <origin>Das, Adrian J.</origin>
+        <origin>Davis, Ryan S.</origin>
+        <origin>Dickinson, Darci M.</origin>
+        <origin>Fitzgerald, Stephen A.</origin>
+        <origin>Fulé, Peter Z.</origin>
+        <origin>Ganio, Lisa M.</origin>
+        <origin>Grayson, Lindsay M.</origin>
+        <origin>Halpern, Charles B.</origin>
+        <origin>Hanula, Jim L.</origin>
+        <origin>Harvey, Brian J.</origin>
+        <origin>Hiers, J. Kevin</origin>
+        <origin>Huffman, David W.</origin>
+        <origin>Keifer, MaryBeth</origin>
+        <origin>Keyser, Tara L.</origin>
+        <origin>Kobziar, Leda N.</origin>
+        <origin>Kolb, Thomas E.</origin>
+        <origin>Kolden, Crystal A.</origin>
+        <origin>Kopper, Karen E.</origin>
+        <origin>Kreitler, Jason R.</origin>
+        <origin>Kreye, Jesse K.</origin>
+        <origin>Latimer, Andrew M.</origin>
+        <origin>Lerch, Andrew P.</origin>
+        <origin>Lombardero, Maria J.</origin>
+        <origin>McDaniel, Virginia L.</origin>
+        <origin>McHugh, Charles W.</origin>
+        <origin>McMillin, Joel D.</origin>
+        <origin>Moghaddas, Jason J.</origin>
+        <origin>O’Brien, Joseph J.</origin>
+        <origin>Perrakis, Daniel D.B.</origin>
+        <origin>Peterson, David W.</origin>
+        <origin>Prichard, Susan J.</origin>
+        <origin>Progar, Robert A.</origin>
+        <origin>Raffa, Kenneth F.</origin>
+        <origin>Reinhardt, Elizabeth D.</origin>
+        <origin>Restaino, Joseph C.</origin>
+        <origin>Roccaforte, John P.</origin>
+        <origin>Rogers, Brendan M.</origin>
+        <origin>Ryan, Kevin C.</origin>
+        <origin>Safford, Hugh D.</origin>
+        <origin>Santoro, Alyson E.</origin>
+        <origin>Shearman, Timothy M.</origin>
+        <origin>Shumate, Alice M.</origin>
+        <origin>Sieg, Carolyn H.</origin>
+        <origin>Smith, Sheri L.</origin>
+        <origin>Smith, Rebecca J.</origin>
+        <origin>Stephenson, Nathan L.</origin>
+        <origin>Steuver, Mary</origin>
+        <origin>Stevens, Jens T.</origin>
+        <origin>Stoddard, Michael T.</origin>
+        <origin>Thies, Walter G.</origin>
+        <origin>Vaillant, Nicole M.</origin>
+        <origin>Weiss, Shelby A.</origin>
+        <origin>Westlind, Douglas J.</origin>
+        <origin>Woolley, Travis J.</origin>
+        <origin>Wright, Micah</origin>
+        <pubdate>2022</pubdate>
+        <title>Fire and tree mortality database (FTM)</title>
+        <geoform>tabular digital data</geoform>
+        <edition>2nd</edition>
+        <pubinfo>
+          <pubplace>Fort Collins, CO</pubplace>
+          <publish>Forest Service Research Data Archive</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.2737/RDS-2020-0001-2</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The Fire and Tree Mortality (FTM) database includes standardized observations of fire injury and survival or mortality for 171,177 individual tree-level observations, representing 142 tree species across the United States. Of these, 7,191 trees have burned twice. These trees were burned in 420 prescribed fires and wildfires occurring in 35 years, from 1981 to 2016. The database was developed using 41 contributed datasets from researchers, managers, and archived data products. At a minimum, datasets had to contain measurements of individual trees, size, fire injury, and post-fire survival, but some datasets include additional data such as bark beetle attack. Only trees that were alive before the fire were included in the database. We included any trees where post-fire status was measured within 10 years of the fire. If a tree re-burned in a subsequent fire, and post-fire injury and status information were available after that fire, then a new record (row) was made for that tree after the second fire.</abstract>
+      <purpose>The purpose of the FTM database is to provide access to data on individual tree mortality or top-kill from wildland and prescribed fire. By pooling as many individual datasets as possible and creating consistent variables, data analysis with a much larger sample size is feasible. The FTM database also allows easy identification of data gaps to direct future data collection efforts. The FTM database also allows evaluation of post-fire mortality models, such as the First Order Fire Effects Model (FOFEM), BehavePlus, and the Fire and Fuels Extension to the Forest Vegetation Simulator (FFE-FVS).</purpose>
+      <supplinf>This data publication is a 2nd edition of the FTM database. The first edition (https://doi.org/10.2737/RDS-2020-0001) was originally published on 05/14/2020. This 2nd edition includes data updates such as a change to the format of live / dead status for years where data were not collected in the field, updates to the format of unobserved (NA) values, and additional data corrections. A thorough description of these updates is described in the process steps below.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1981</begdate>
+          <enddate>2016</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Observed</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <eastbc>-82.18389</eastbc>
+        <westbc>-145.76337</westbc>
+        <northbc>64.33222</northbc>
+        <southbc>30.33607</southbc>
+        <boundalt>
+          <altmax>3521</altmax>
+          <altmin>40</altmin>
+          <altunits>meters</altunits>
+        </boundalt>
+      </bounding>
+      <descgeog>FTM includes data from across the continental United States and Alaska.</descgeog>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>biota</themekey>
+        <themekey>environment</themekey>
+        <themekey>location</themekey>
+      </theme>
+      <theme>
+        <themekt>National Research &amp; Development Taxonomy</themekt>
+        <themekey>Ecology, Ecosystems, &amp; Environment</themekey>
+        <themekey>Plant ecology</themekey>
+        <themekey>Fire</themekey>
+        <themekey>Fire ecology</themekey>
+        <themekey>Prescribed fire</themekey>
+        <themekey>Fire effects on environment</themekey>
+        <themekey>Forest &amp; Plant Health</themekey>
+        <themekey>Insects</themekey>
+        <themekey>Inventory, Monitoring, &amp; Analysis</themekey>
+        <themekey>Monitoring</themekey>
+        <themekey>Forest management</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>post-fire tree mortality</themekey>
+        <themekey>fire-induced tree mortality</themekey>
+        <themekey>fire-caused tree mortality</themekey>
+        <themekey>Joint Fire Science Program</themekey>
+        <themekey>JFSP</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>United States</placekey>
+        <placekey>Ohio</placekey>
+        <placekey>North Carolina</placekey>
+        <placekey>South Carolina</placekey>
+        <placekey>Georgia</placekey>
+        <placekey>Florida</placekey>
+        <placekey>Alabama</placekey>
+        <placekey>Arkansas</placekey>
+        <placekey>New Mexico</placekey>
+        <placekey>Arizona</placekey>
+        <placekey>California</placekey>
+        <placekey>Utah</placekey>
+        <placekey>Colorado</placekey>
+        <placekey>South Dakota</placekey>
+        <placekey>Wyoming</placekey>
+        <placekey>Idaho</placekey>
+        <placekey>Montana</placekey>
+        <placekey>Oregon</placekey>
+        <placekey>Washington</placekey>
+        <placekey>Minnesota</placekey>
+        <placekey>Michigan</placekey>
+        <placekey>Alaska</placekey>
+      </place>
+    </keywords>
+    <taxonomy>
+      <keywtax>
+        <taxonkt>None</taxonkt>
+        <taxonkey>multiple species</taxonkey>
+        <taxonkey>plants</taxonkey>
+      </keywtax>
+      <taxonsys>
+        <classsys>
+          <classcit>
+            <citeinfo>
+              <origin>USDA, NRCS</origin>
+              <pubdate>2019</pubdate>
+              <title>The PLANTS Database</title>
+              <geoform>database</geoform>
+              <pubinfo>
+                <pubplace>Greensboro, NC 27401-4901 USA</pubplace>
+                <publish>National Plant Data Team</publish>
+              </pubinfo>
+              <onlink>http://plants.usda.gov</onlink>
+            </citeinfo>
+          </classcit>
+        </classsys>
+        <taxonpro>See \Data\Species_BarkThickness.csv for the complete list of taxonomic coverage included in the FTM database.</taxonpro>
+      </taxonsys>
+    </taxonomy>
+    <accconst>None</accconst>
+    <useconst>These data were collected using funding from the U.S. Government and can be used without additional permissions or fees. If you use these data in a publication, presentation, or other research product please use the following citation: 
+
+Cansler, C. Alina; Hood, Sharon M.; Varner, J. Morgan; van Mantgem, Phillip J.; Agne, Michelle C.; Andrus, Robert A.; Ayres, Matthew P.; Ayres, Bruce D.; Bakker, Jonathan D.; Battaglia, Michael A.; Bentz, Barbara J.; Breece, Carolyn R.; Brown, James K.; Cluck, Daniel R.; Coleman, Tom W.; Corace, R. Gregory; Covington, W. Wallace; Cram, Douglas S.; Cronan, James B.; Crouse, Joseph E.; Das, Adrian J.; Davis, Ryan S.; Dickinson, Darci M.; Fitzgerald, Stephen A.; Fulé, Peter Z.; Ganio, Lisa M.; Grayson, Lindsay M.; Halpern, Charles B.; Hanula, Jim L.; Harvey, Brian J.; Hiers, J. Kevin; Huffman, David W.; Keifer, MaryBeth; Keyser, Tara L.; Kobziar, Leda N.; Kolb, Thomas E.; Kolden, Crystal A.; Kopper, Karen E.; Kreitler, Jason R.; Kreye, Jesse K.; Latimer, Andrew M.; Lerch, Andrew P.; Lombardero, Maria J.; McDaniel, Virginia L.; McHugh, Charles W.; McMillin, Joel D.; Moghaddas, Jason J.; O’Brien, Joseph J.; Perrakis, Daniel D.B.; Peterson, David W.; Prichard, Susan J.; Progar, Robert A.; Raffa, Kenneth F.; Reinhardt, Elizabeth D.; Restaino, Joseph C.; Roccaforte, John P.; Rogers, Brendan M.; Ryan, Kevin C.; Safford, Hugh D.; Santoro, Alyson E.; Shearman, Timothy M.; Shumate, Alice M.; Sieg, Carolyn H.; Smith, Sheri L.; Smith, Rebecca J.; Stephenson, Nathan L.; Steuver, Mary; Stevens, Jens T.; Stoddard, Michael T.; Thies, Walter G.; Vaillant, Nicole M.; Weiss, Shelby A.; Westlind, Douglas J.; Woolley, Travis J.; Wright, Michah. 2022. Fire and tree mortality database (FTM). 2nd Edition. Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2020-0001-2
+
+Please also cite the peer-reviewed paper describing the database:
+
+Cansler, C. Alina; Hood, Sharon M.; Varner, J. Morgan; van Mantgem, Phillip J.; Agne, Michelle C.; Andrus, Robert A.; Ayres, Matthew P.; Ayres, Bruce D.; Bakker, Jonathan D.; Battaglia, Michael A.; Bentz, Barbara J.; Breece, Carolyn R.; Brown, James K.; Cluck, Daniel R.; Coleman, Tom W.; Corace, R. Gregory; Covington, W. Wallace; Cram, Douglas S.; Cronan, James B.; Crouse, Joseph E.; Das, Adrian J.; Davis, Ryan S.; Dickinson, Darci M.; Fitzgerald, Stephen A.; Fulé, Peter Z.; Ganio, Lisa M.; Grayson, Lindsay M.; Halpern, Charles B.; Hanula, Jim L.; Harvey, Brian J.; Hiers, J. Kevin; Huffman, David W.; Keifer, MaryBeth; Keyser, Tara L.; Kobziar, Leda N.; Kolb, Thomas E.; Kolden, Crystal A.; Kopper, Karen E.; Kreitler, Jason R.; Kreye, Jesse K.; Latimer, Andrew M.; Lerch, Andrew P.; Lombardero, Maria J.; McDaniel, Virginia L.; McHugh, Charles W.; McMillin, Joel D.; Moghaddas, Jason J.; O’Brien, Joseph J.; Perrakis, Daniel D.B.; Peterson, David W.; Prichard, Susan J.; Progar, Robert A.; Raffa, Kenneth F.; Reinhardt, Elizabeth D.; Restaino, Joseph C.; Roccaforte, John P.; Rogers, Brendan M.; Ryan, Kevin C.; Safford, Hugh D.; Santoro, Alyson E.; Shearman, Timothy M.; Shumate, Alice M.; Sieg, Carolyn H.; Smith, Sheri L.; Smith, Rebecca J.; Stephenson, Nathan L.; Steuver, Mary; Stevens, Jens T.; Stoddard, Michael T.; Thies, Walter G.; Vaillant, Nicole M.; Weiss, Shelby A.; Westlind, Douglas J.; Woolley, Travis J.; Wright, Michah C. 2020. The Fire and Tree Mortality Database, for empirical modeling of individual tree mortality after fire. Scientific Data 7: 194. https://doi.org/10.1038/s41597-020-0522-7
+</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>C. Alina Cansler</cntper>
+          <cntorg>USDA Forest Service, Rocky Mountain Research Station (FTM database development done under RMRS)</cntorg>
+        </cntperp>
+        <cntpos>Research Scientist at University of Washington</cntpos>
+        <cntemail>acansler@uw.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Sharon Hood</cntper>
+          <cntorg>USDA Forest Service, Rocky Mountain Research Station</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>5775 Hwy 10 W</address>
+          <city>Missoula</city>
+          <state>MT</state>
+          <postal>59808</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntpos>Research Ecologist</cntpos>
+        <cntvoice>406-329-4818</cntvoice>
+        <cntemail>sharon.hood@usda.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsed>Tagged Image Format file containing a map showing the geographic location of fires included in the Fire and Tree Mortality database by year of fire occurrence.</browsed>
+      <browsen>\Supplements\FTM_Fulldatabase_firelocations.tif</browsen>
+      <browset>TIFF</browset>
+    </browse>
+    <datacred>Funding for this project provided by Joint Fire Science Program (JFSP # 16-1-04-8): https://www.firescience.gov and the USDA Forest Service, Rocky Mountain Research Station (RMRS). The database includes datasets funded from numerous sources, including RMRS; USDA Forest Service, Forest Health Protection; and the Joint Fire Science Program.</datacred>
+    <crossref>
+      <citeinfo>
+        <origin>Cansler, C. Alina</origin>
+        <origin>Hood, Sharon M.</origin>
+        <origin>Varner, J. Morgan</origin>
+        <origin>van Mantgem, Phillip J.</origin>
+        <origin>Agne, Michelle C.</origin>
+        <origin>Andrus, Robert A.</origin>
+        <origin>Ayres, Matthew P.</origin>
+        <origin>Ayres, Bruce D.</origin>
+        <origin>Bakker, Jonathan D.</origin>
+        <origin>Battaglia, Michael A.</origin>
+        <origin>Bentz, Barbara J.</origin>
+        <origin>Breece, Carolyn R.</origin>
+        <origin>Cluck, Daniel R.</origin>
+        <origin>Coleman, Tom W.</origin>
+        <origin>Corace, R. Gregory</origin>
+        <origin>Covington, W. Wallace</origin>
+        <origin>Cram, Douglas S.</origin>
+        <origin>Cronan, James B.</origin>
+        <origin>Crouse, Joseph E.</origin>
+        <origin>Das, Adrian J.</origin>
+        <origin>Davis, Ryan S.</origin>
+        <origin>Dickinson, Darci M.</origin>
+        <origin>Fitzgerald, Stephen A.</origin>
+        <origin>Peter Z. Fulé</origin>
+        <origin>Ganio, Lisa M.</origin>
+        <origin>Grayson, Lindsay M.</origin>
+        <origin>Halpern, Charles B.</origin>
+        <origin>Hanula, Jim L.</origin>
+        <origin>Harvey, Brian J.</origin>
+        <origin>Hiers, J. Kevin</origin>
+        <origin>Huffman, David W.</origin>
+        <origin>Keifer, MaryBeth</origin>
+        <origin>Keyser, Tara L.</origin>
+        <origin>Kobziar, Leda N.</origin>
+        <origin>Kolb, Thomas E.</origin>
+        <origin>Kolden, Crystal A.</origin>
+        <origin>Kopper, Karen E.</origin>
+        <origin>Kreitler, Jason R.</origin>
+        <origin>Kreye, Jesse K.</origin>
+        <origin>Latimer, Andrew M.</origin>
+        <origin>Lerch, Andrew P.</origin>
+        <origin>Lombardero, Maria J.</origin>
+        <origin>McDaniel, Virginia L.</origin>
+        <origin>McHugh, Charles W.</origin>
+        <origin>McMillin, Joel D.</origin>
+        <origin>Moghaddas, Jason J.</origin>
+        <origin>O’Brien, Joseph J.</origin>
+        <origin>Perrakis, Daniel D.B.</origin>
+        <origin>Peterson, David W.</origin>
+        <origin>Prichard, Susan J.</origin>
+        <origin>Progar, Robert A.</origin>
+        <origin>Raffa, Kenneth F.</origin>
+        <origin>Reinhardt, Elizabeth D.</origin>
+        <origin>Restaino, Joseph C.</origin>
+        <origin>Roccaforte, John P.</origin>
+        <origin>Rogers, Brendan M.</origin>
+        <origin>Ryan, Kevin C.</origin>
+        <origin>Safford, Hugh D.</origin>
+        <origin>Santoro, Alyson E.</origin>
+        <origin>Shearman, Timothy M.</origin>
+        <origin>Shumate, Alice M.</origin>
+        <origin>Sieg, Carolyn H.</origin>
+        <origin>Smith, Sheri L.</origin>
+        <origin>Smith, Rebecca J.</origin>
+        <origin>Stephenson, Nathan L.</origin>
+        <origin>Steuver, Mary</origin>
+        <origin>Stevens, Jens T.</origin>
+        <origin>Stoddard, Michael T.</origin>
+        <origin>Thies, Walter G.</origin>
+        <origin>Vaillant, Nicole M.</origin>
+        <origin>Weiss, Shelby A.</origin>
+        <origin>Westlind, Douglas J.</origin>
+        <origin>Woolley, Travis J.</origin>
+        <origin>Wright, Micah C.</origin>
+        <pubdate>2020</pubdate>
+        <title>The Fire and Tree Mortality Database, for empirical modeling of individual tree mortality after fire</title>
+        <geoform>journal article</geoform>
+        <serinfo>
+          <sername>Scientific Data</sername>
+          <issue>7: 194</issue>
+        </serinfo>
+        <onlink>https://doi.org/10.1038/s41597-020-0522-7</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Cansler, C. Alina</origin>
+        <origin>Hood, Sharon M.</origin>
+        <origin>Varner, J. Morgan</origin>
+        <origin>van Mantgem, Phillip J.</origin>
+        <origin>Agne, Michelle C.</origin>
+        <origin>Andrus, Robert A.</origin>
+        <origin>Ayres, Matthew P.</origin>
+        <origin>Ayres, Bruce D.</origin>
+        <origin>Bakker, Jonathan D.</origin>
+        <origin>Battaglia, Michael A.</origin>
+        <origin>Bentz, Barbara J.</origin>
+        <origin>Breece, Carolyn R.</origin>
+        <origin>Brown, James K.</origin>
+        <origin>Cluck, Daniel R.</origin>
+        <origin>Coleman, Tom W.</origin>
+        <origin>Corace, R. Gregory</origin>
+        <origin>Covington, W. Wallace</origin>
+        <origin>Cram, Douglas S.</origin>
+        <origin>Cronan, James B.</origin>
+        <origin>Crouse, Joseph E.</origin>
+        <origin>Das, Adrian J.</origin>
+        <origin>Davis, Ryan S.</origin>
+        <origin>Dickinson, Darci M.</origin>
+        <origin>Fitzgerald, Stephen A.</origin>
+        <origin>Fulé, Peter Z.</origin>
+        <origin>Ganio, Lisa M.</origin>
+        <origin>Grayson, Lindsay M.</origin>
+        <origin>Halpern, Charles B.</origin>
+        <origin>Hanula, Jim L.</origin>
+        <origin>Harvey, Brian J.</origin>
+        <origin>Hiers, J. Kevin</origin>
+        <origin>Huffman, David W.</origin>
+        <origin>Keifer, MaryBeth</origin>
+        <origin>Keyser, Tara L.</origin>
+        <origin>Kobziar, Leda N.</origin>
+        <origin>Kolb, Thomas E.</origin>
+        <origin>Kolden, Crystal A.</origin>
+        <origin>Kopper, Karen E.</origin>
+        <origin>Kreitler, Jason R.</origin>
+        <origin>Kreye, Jesse K.</origin>
+        <origin>Latimer, Andrew M.</origin>
+        <origin>Lerch, Andrew P.</origin>
+        <origin>Lombardero, Maria J.</origin>
+        <origin>McDaniel, Virginia L.</origin>
+        <origin>McHugh, Charles W.</origin>
+        <origin>McMillin, Joel D.</origin>
+        <origin>Moghaddas, Jason J.</origin>
+        <origin>O’Brien, Joseph J.</origin>
+        <origin>Perrakis, Daniel D.B.</origin>
+        <origin>Peterson, David W.</origin>
+        <origin>Prichard, Susan J.</origin>
+        <origin>Progar, Robert A.</origin>
+        <origin>Raffa, Kenneth F.</origin>
+        <origin>Reinhardt, Elizabeth D.</origin>
+        <origin>Restaino, Joseph C.</origin>
+        <origin>Roccaforte, John P.</origin>
+        <origin>Rogers, Brendan M.</origin>
+        <origin>Ryan, Kevin C.</origin>
+        <origin>Safford, Hugh D.</origin>
+        <origin>Santoro, Alyson E.</origin>
+        <origin>Shearman, Timothy M.</origin>
+        <origin>Shumate, Alice M.</origin>
+        <origin>Sieg, Carolyn H.</origin>
+        <origin>Smith, Sheri L.</origin>
+        <origin>Smith, Rebecca J.</origin>
+        <origin>Stephenson, Nathan L.</origin>
+        <origin>Steuver, Mary</origin>
+        <origin>Stevens, Jens T.</origin>
+        <origin>Stoddard, Michael T.</origin>
+        <origin>Thies, Walter G.</origin>
+        <origin>Vaillant, Nicole M.</origin>
+        <origin>Weiss, Shelby A.</origin>
+        <origin>Westlind, Douglas J.</origin>
+        <origin>Woolley, Travis J.</origin>
+        <origin>Wright, Micah</origin>
+        <pubdate>2022</pubdate>
+        <title>Fire and tree mortality database (FTM)</title>
+        <geoform>tabular digital data</geoform>
+        <edition>1st</edition>
+        <pubinfo>
+          <pubplace>Fort Collins, CO</pubplace>
+          <publish>Forest Service Research Data Archive</publish>
+        </pubinfo>
+        <othercit>Updated 24 July 2020</othercit>
+        <onlink>https://doi.org/10.2737/RDS-2020-0001</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>We used summary tables and data visualization to check for outliers, impossible values, and duplicated records. We corresponded with data contributors when additional clarification was needed. Examples on impossible values include: tree status could not change from dead in one year and alive in a subsequent year; percentage values must be 0 to 100; species must lay within established range maps.</attraccr>
+    </attracc>
+    <logic>For each contributed dataset, we created consistently named variables, consistent labeled levels of categorical variables, and made units consistent for each variable. See methodology section for more details.</logic>
+    <complete>To be included in the database, at a minimum, datasets had to contain measurements of individual trees, stem diameter, fire injury, and post-fire survival. Tree records without species identified were retained for the purposes of being able to calculate plot-level metrics. Many datasets included more variables that the required minimum. We retained variables on fire-caused injuries and biotic agents from the original datasets. 
+	
+"NA" is used to represent not applicable or not assessed, see variable descriptions for details. There are also some cases of "not available", which means we do not have this information.</complete>
+    <lineage>
+      <method>
+        <methdesc>OBTAINING DATA
+
+To construct our FTM database, the lead authors (Cansler, Hood, Varner, van Mantgem) conducted a literature search for publications reporting post-fire tree mortality data and contacted corresponding authors to inquire if they were willing to contribute to database. To collect additional data, we also posted data requests on listservs, professional management and science exchange networks, and with technical working groups. Lastly, we coordinated with the National Park Service to receive the agency’s fire ecology program fire effects monitoring data. From these data requests and searches, we obtained 41 contributed databases from researchers, managers, and archived datasets that met our criteria (see Completeness Report).
+				
+STANDARDIZATION
+		
+For each contributed dataset, we created consistently named variables, consistent labeled levels of categorical variables, and made units consistent for each variable. 
+
+We standardized the fire location and fire year data for all observations. Because location data in contributed datasets were provided at inconsistent scales (including tree, plot, research site, and fire names) we standardized all location data used in this analysis to the scale of a fire event. If tree or plot coordinates were provided, we took the average of those coordinates to provide one coordinate for the fire event. If only research site coordinates were provided, but multiple fires occurred with different start dates, then we replicated those coordinates for each fire event. If a fire name and year was provided, and no coordinates were provided, then we searched the Monitoring Trends in Burn Severity database (Monitoring Trends in Burn Severity 2019) for the fire, downloaded the fire geospatial data, and used the coordinates of the centroid of the fire perimeter for this analysis.
+
+Only trees that were alive before the fire were included in the database. We included any trees where post-fire status was measured within 10 years of the fire. When possible, we populated live and dead status for years when field measurements were not taken: if a tree was alive, it was coded as live in previous years, and if a tree was dead, it was coded as dead in subsequent years. If a tree re-burned in a subsequent fire, and post-fire injury and status information were available after that fire, then a new record (row) was made for that tree after the second fire.
+
+Individual studies may have collected more detailed beetle attack data, but for the purposes of creating FTM database and evaluating FOFEM, we collapsed all attack data into either presence or absence.
+
+
+DATA MEASUREMENTS AND CALCULATIONS
+
+Measurements of fire-caused injuries included percent crown volume scorched, percent crown length scorched, percent crown volume killed, bark char height, and cambium kill rating. 
+
+When possible, we calculated unmeasured variables from those measured in the field to align with other datasets. Specifically, we calculated:
+pre-fire crown length = pre-fire tree height − pre-fire height of the base of the crown; and 
+post-fire crown length = post-fire tree height − post-fire height of the base of the crown.
+
+In some cases, tree height was only measured before the fire, and in those cases we used the pre-fire height measurement to calculate the post-fire crown length:
+post-fire crown length = pre-fire tree height − post-fire height of the base of the crown.
+
+Using the pre- and post-fire crown length we could calculate the measured and percent of crown length scorched: 
+crown length scorched = pre-fire crown length − post-fire crown length; and
+percent crown length scorched = 100*(crown length scorched/ pre-fire crown length).
+
+To calculate percent crown volume scorched (CVS) from other measurements, we followed the equation provided in the FOFEM help manual (Lutes et al. 2019), which is a rearranged version of the equation derived in Peterson and Ryan (1986).
+
+CVS = 100*CLS*(2*CLpre - CLS)/(CLpre*CLpre)
+
+Where:
+CVS = percent crown volume scorched; 
+CLS = crown length scorched; and
+CLpre = pre-fire crown length.
+
+If pre-fire crown volume that was scorched or consumed by fire and pre-fire crown length that was scorched or consumed by fire were measured or visually estimated in the field, then we used those field-based observations instead of calculated values. Likewise, if was measured in the field, we used that measurement of injury, instead of the change from pre-fire to post-fire crown base height for subsequent calculations. In cases where calculations produced impossible values of &lt;0 or &gt;100, we set those values to an “unknown” value, and exclude those records from this analysis. 
+
+Bark char height (BCH) in this study is the average (as opposed to the maximum) vertical height (m) from ground of blackened bark on a tree bole. Char is blackened residue of bark resulting from incomplete combustion and a coarse indicator of the duration the tree bole was exposed to flames and heat from the fire. Cambium kill rating (CKR) is an estimate of the amount of cambium kill and stem injury from fire (Hood et al. 2010). Measurements of CKR requires removing a small sample of bark at four locations at a tree’s base, to determine if the death of the vascular meristematic tissue (i.e. cambium tissue located between bark and secondary xylem/wood) during fire. Typically, four measurements around the bole are taken, and CKR is the sum of the number of quadrants with dead cambium.
+</methdesc>
+        <methcite>
+          <citeinfo>
+            <origin>Hood, Sharon M.</origin>
+            <origin>Smith, Sheri L.</origin>
+            <origin>Cluck, Daniel R.</origin>
+            <pubdate>2010</pubdate>
+            <title>Predicting mortality for five California conifers following wildfire</title>
+            <geoform>journal article</geoform>
+            <serinfo>
+              <sername>Forest Ecology and Management</sername>
+              <issue>260(5): 750-762</issue>
+            </serinfo>
+            <onlink>https://doi.org/10.1016/j.foreco.2010.05.033</onlink>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Lutes, Duncan C.</origin>
+            <pubdate>2019</pubdate>
+            <title>FOFEM 6.5; First Order Fire Effects Model user guide</title>
+            <geoform>document</geoform>
+            <pubinfo>
+              <pubplace>Missoula, MT</pubplace>
+              <publish>USDA Forest Service, Rocky Mountain Research Station</publish>
+            </pubinfo>
+            <onlink>https://www.firelab.org/sites/default/files/images/downloads/FOFEM_6-5_User_Guide.pdf</onlink>
+            <othercit>April 2019</othercit>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Peterson, David L.</origin>
+            <origin>Ryan, Kevin C.</origin>
+            <pubdate>1986</pubdate>
+            <title>Modeling postfire conifer mortality for long-range planning</title>
+            <geoform>journal article</geoform>
+            <serinfo>
+              <sername>Environmental Management</sername>
+              <issue>10(6): 797-808</issue>
+            </serinfo>
+            <onlink>https://doi.org/10.1007/BF01867732</onlink>
+          </citeinfo>
+        </methcite>
+        <methtype>Field</methtype>
+      </method>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <origin>U.S. Department of Agriculture, Forest Service</origin>
+            <origin>U.S. Department of the Interior</origin>
+            <pubdate>2019</pubdate>
+            <title>Monitoring Trends in Burn Severity</title>
+            <geoform>database</geoform>
+            <onlink>https://www.mtbs.gov/</onlink>
+          </citeinfo>
+        </srccite>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1981</begdate>
+              <enddate>2019</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication Date</srccurr>
+        </srctime>
+        <srccitea>MTBS 2019</srccitea>
+        <typesrc>Online</typesrc>
+        <srccontr>Exact Monitoring Trends in Burn Severity (MTBS) fire names were used.
+
+If a fire name and year was provided, and no coordinates were provided, then we searched the MTBS database (MTBS 2019) for the fire, downloaded the fire geospatial data, and used the coordinates of the centroid of the fire perimeter for this analysis.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Below is a list of changes made to the 1st edition of the FTM database resulting in this 2nd edition.
+		
+FTM_TREES.CSV  SUBSTANTIAL CHANGES
+
+1. Changed the format of live / dead status for years where data were not collected in the field. Previously we filled in those values, in the following order: (1) if a tree was dead, its status in subsequent years where no field measurements occurred was set to dead; (2) if a tree was live, its status in previous years (either where not field measurement was made or when it was listed as dead based on field observations) was changed to live. 
+
+Leaving NAs in in observed years allows for accounting of field-observations versus no field observation in the modeling structure. User can still fill in unobserved live and dead values in years observations did not occur, but now the observation years can be determined from the data.
+
+2. After doing this, we corrected the values of a small number of trees that had been observed as dead and then observed as alive, when there were additional notes or data that helped us confirm which status was correct. When we could not confirm the status of the trees, we did not correct the “Zombie” trees. We wanted to retain them because they were alive before the fire and could be used to calculate pre-fire density, if desired.
+
+
+FTM_TREES.CSV MINOR CHANGES
+
+1. Data from the National Park Service Fire Monitoring program were resampled and reformatted to match the FTM database format, and the following changes were made during this process:
+a. Corrected errors in the years that plots had burned plot.
+b. Constrained dates to final years covered in source data. 
+c. Updated the function to derive dates from a second burn to allow for inclusion of earlier records.
+d. Names to two fires in were corrected so entries in the FTM_Trees.csv match the FTM_Fires.csv
+e. Did better screening out of “0” values for Canopy Volume Scorched (CVS). In the source data, sometime 0s were listed, but 0s were actually representing no measurements, or true NAs.
+
+2. Corrected the coding of live / dead status in three dataset: 
+a. Breece dataset: corrected the year of mortality for a subset of fires, which were off by one year.
+b. Dickinson dataset: removed trees that were dead before the fire.
+c. Bakker dataset: corrected incorrect coding of status data in the incorrect year. 
+
+3. Corrected Canopy Volume Scorched (CVS) values so they included the Canopy Volume Consumed (CVC) measurements in both datasets from Pole Creek fire.
+
+
+FTM_FIRES.CSV MINOR CHANGES
+
+1. The plot size on the Keyser dataset was changed from 0.03 hectares to the correct size of 0.3 hectares. 
+</procdesc>
+        <procdate>20221004</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>FTM_trees.csv</enttypl>
+        <enttypd>data included in the FTM database</enttypd>
+        <enttypds>csv file</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>YrFireName</attrlabl>
+        <attrdef>A unique identifier for each fire event that includes the year of the fire and the fire name; YEAR - Fire</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Species</attrlabl>
+        <attrdef>Symbol for species. First two letters of genus and first two letters of species, sometimes followed by a number. Symbols follow those in the PLANTS National Database (http://plants.usda.gov). 2TREE = unknown tree species.</attrdef>
+        <attrdefs>PLANTS National Database</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Dataset</attrlabl>
+        <attrdef>The name of the subset of data that was contributed to the Fire and Tree Mortality (FTM) project. This is typically the name of the person who contributed the data to the FTM project but may be the agency that is the primary data steward.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Times_burned</attrlabl>
+        <attrdef>The number of times this tree was burned.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ID</attrlabl>
+        <attrdef>Location within fire other than the plot number that is a location identifier in the original dataset. May include burn unit, region of fire, etc. NA = not applicable.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Plot</attrlabl>
+        <attrdef>Plot number/name from original dataset. NA = not applicable.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>TreeNum</attrlabl>
+        <attrdef>Tree tag number from original dataset. NA = tree numbers were not assessed in the original dataset.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Unit</attrlabl>
+        <attrdef>Unit name within a fire from original dataset. NA = not applicable.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Genus</attrlabl>
+        <attrdef>Genus of species. NA = species not assessed in original dataset.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Species_name</attrlabl>
+        <attrdef>Specific epithet. NA = species not assessed in original dataset.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Subspecies</attrlabl>
+        <attrdef>Subspecies or variety. NA = subspecies not assessed. Symbols follow those in the PLANTS National Database (http://plants.usda.gov). </attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Genus_species</attrlabl>
+        <attrdef>Genus and species of tree.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DBH_cm</attrlabl>
+        <attrdef>Diameter at breast height rounded to nearest 0.1 cm (cm = centimeters). NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DRC_cm</attrlabl>
+        <attrdef>Diameter at root crown rounded to nearest 0.1 cm (cm = centimeters). NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>HT_m</attrlabl>
+        <attrdef>Pre-fire tree height rounded to nearest 0.01 m (m=meters). NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>HCB_pre</attrlabl>
+        <attrdef>Pre-fire height of the base of the live crown rounded to nearest 0.01 m (m=meters). NA = not assessed; HCB_pre not measured.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CR_pre</attrlabl>
+        <attrdef>Pre-fire live crown ratio. Crown length divided by tree height (proportion rounded to nearest 0.01). NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CC</attrlabl>
+        <attrdef>Canopy class for trees (1 = dominant, 2 = codominant, 3 = intermediate, 4 = suppressed). NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>VR</attrlabl>
+        <attrdef>Vigor rating for trees (1 = healthy, 2 = unhealthy, 3 = dying). NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CL_m</attrlabl>
+        <attrdef>Pre-fire live crown length rounded to nearest 0.01 m (m=meters). NA = not assessed; CL_m not measured.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>yr0status</attrlabl>
+        <attrdef>Tree status the year the fire occurred, after the fire occurred (0=alive, 1=dead). NA= not assessed in timestep.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>yr1status</attrlabl>
+        <attrdef>Tree status in year 1 post-fire. (0=alive, 1=dead). Counted in growing seasons − if fire occurred in spring prior to bud break, 1 year post-fire is that same year as fire. If fire occurred during growing season or fall, 1 year post-fire is the next calendar year after fire.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>yr2status</attrlabl>
+        <attrdef>Tree status in year 2 post-fire. (0=alive, 1=dead). Counted in growing seasons − if fire occurred in spring prior to bud break, 1 year post-fire is that same year as fire. If fire occurred during growing season or fall, 1 year post-fire is the next calendar year after fire.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>yr3status</attrlabl>
+        <attrdef>Tree status in year 3 post-fire. (0=alive, 1=dead). Counted in growing seasons − if fire occurred in spring prior to bud break, 1 year post-fire is that same year as fire. If fire occurred during growing season or fall, 1 year post-fire is the next calendar year after fire.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>yr4status</attrlabl>
+        <attrdef>Tree status in year 4 post-fire. (0=alive, 1=dead). Counted in growing seasons − if fire occurred in spring prior to bud break, 1 year post-fire is that same year as fire. If fire occurred during growing season or fall, 1 year post-fire is the next calendar year after fire.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>yr5status</attrlabl>
+        <attrdef>Tree status in year 5 post-fire. (0=alive, 1=dead). Counted in growing seasons − if fire occurred in spring prior to bud break, 1 year post-fire is that same year as fire. If fire occurred during growing season or fall, 1 year post-fire is the next calendar year after fire.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>yr6status</attrlabl>
+        <attrdef>Tree status in year 6 post-fire. (0=alive, 1=dead). Counted in growing seasons − if fire occurred in spring prior to bud break, 1 year post-fire is that same year as fire. If fire occurred during growing season or fall, 1 year post-fire is the next calendar year after fire.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>yr7status</attrlabl>
+        <attrdef>Tree status in year 7 post-fire. (0=alive, 1=dead). Counted in growing seasons − if fire occurred in spring prior to bud break, 1 year post-fire is that same year as fire. If fire occurred during growing season or fall, 1 year post-fire is the next calendar year after fire.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>yr8status</attrlabl>
+        <attrdef>Tree status in year 8 post-fire. (0=alive, 1=dead). Counted in growing seasons − if fire occurred in spring prior to bud break, 1 year post-fire is that same year as fire. If fire occurred during growing season or fall, 1 year post-fire is the next calendar year after fire.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>yr9status</attrlabl>
+        <attrdef>Tree status in year 9 post-fire. (0=alive, 1=dead). Counted in growing seasons − if fire occurred in spring prior to bud break, 1 year post-fire is that same year as fire. If fire occurred during growing season or fall, 1 year post-fire is the next calendar year after fire.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>yr10status</attrlabl>
+        <attrdef>Tree status in year 10 post-fire. (0=alive, 1=dead). Counted in growing seasons − if fire occurred in spring prior to bud break, 1 year post-fire is that same year as fire. If fire occurred during growing season or fall, 1 year post-fire is the next calendar year after fire.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>HCB_post</attrlabl>
+        <attrdef>Post-fire height to live crown base rounded to nearest 0.01 m (m=meters). NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CR_post</attrlabl>
+        <attrdef>Post-fire live crown ratio. Crown length divided by tree height (proportion rounded to nearest 0.01). NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CSH_m</attrlabl>
+        <attrdef>Height of crown scorch, assessed as the highest visible heat injury to leaves from ground level, rounded to nearest 0.01 m (m = meters). Includes scorched and consumed portions of the crown. NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CLS_m</attrlabl>
+        <attrdef>Length of the pre-fire crown that was scorched or consumed by fire rounded to nearest 0.01 m (m = meters). NA = not assessed. In some cases this was a direct measurement in the field, and in others it was calculated using other measurements, including tree height, scorch height, pre-fire and post-fire height to canopy base, or pre-fire and post-fire crown ratio.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CLK_m</attrlabl>
+        <attrdef>Length of the pre-fire crown that fire killed tree buds by either scorch or consumption, rounded to nearest 0.01 m (m= meters). The tree’s buds are meristematic tissue that develops into branches, flowers, or leaves; usually at the end of stems, branches, and foliage. Should be equal to or less than crown length scorched (CLS_m). CLK_m and CLS_m typically only differ for species with protected buds (e.g., ponderosa pine, longleaf pine). NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CLS_percent</attrlabl>
+        <attrdef>Percent of the pre-fire crown length that was scorched or consumed by fire rounded to nearest 1 percent (values 0 to 100). NA = not assessed. In some cases this was a direct measurement in the field, an in others it was calculated using other measurments, including tree height, scorch height, pre-fire and post-fire height to canopy base, or pre-fire and post-fire crown ratio. </attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CLK_percent</attrlabl>
+        <attrdef>Percentage of the pre-fire crown that was scorched with bud kill or consumed by fire rounded to nearest 1 percent (values 0 to 100). The tree’s buds are meristematic tissue that develops into branches, flowers, or leaves; usually at the end of stems, branches, and foliage. Should be equal to or less than CLS_percent. CLK_percent and CLS_percent typically only differ for species with protected buds (e.g., ponderosa pine, longleaf pine). NA = not assessed.  In some cases this was a direct measurement in the field, an in others it was calculated using other measurments, including tree height, kill height, pre-fire and post-fire height to canopy base, or pre-fire and post-fire crown ratio. </attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CVS_percent</attrlabl>
+        <attrdef>Percent of the pre-fire crown volume that was scorched or consumed by fire (values 0 to 100). If measured, this is the CVS from field measurements. Otherwise it is the calculated CVS from crown length measurement, where CVS=100[(CLS(2CL_pre - CLS))/CL_pre2]. NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CVK_percent</attrlabl>
+        <attrdef>Percentage of pre-fire crown volume killed by fire (values 0 to 100). Should always be less than percent of pre-fire crown volume scorched.  If measured, this is the CVS from field measurements. Otherwise it is the calculated CVS from crown length measurement, where CVK=100[(CLK(2CL_pre - CLK))/CL_pre2]. NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CVC_percent</attrlabl>
+        <attrdef>Percent canopy volume consumed, or blackened, by the fire (values 0 to 100). NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CBS</attrlabl>
+        <attrdef>Percent circumference of the bole scorch (values 0 to 100). In some studies this was measured as the maximum percent of tree circumference burned, at any height, and in others this was considered at ground-level. Refer to database related citation for additional information. NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>BCHA_m</attrlabl>
+        <attrdef>Average bark char (also called bole char, bole scorch in other publications) vertical height from ground on a tree bole, rounded to nearest 0.01 m (m=meters). NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>BCHM_m</attrlabl>
+        <attrdef>Maximum bark char (also called bole char, bole scorch in other publications) vertical height from ground on a tree bole, rounded to nearest 0.01 m (m=meters). NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>BCH_percent</attrlabl>
+        <attrdef>Percent of tree height blackened or charred, calculated based on maximum bark char height (values 0 to 100). NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>BCA</attrlabl>
+        <attrdef>Average bark char (also called bole char, bole scorch in other publications) rating; a classification system used as a proxy for the duration a tree bole was exposed to heating by fire. Bark char code was assessed in four quadrants at the base of the tree and the then averaged. Codes: 0=unburned, 1=light, 2=moderate, and 3=deep. For more information see: Hood, S. M., D. R. Cluck, S. L. Smith, and K. C. Ryan. 2008. Using bark char codes to predict post-fire cambium mortality. Fire Ecology 4:57-73. NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CKR</attrlabl>
+        <attrdef>Cambium kill rating. Four quadrants on each tree were assessed for cambium status. CKR is the number of quadrants with dead cambium at ground line; a value between 0-4; requires removing a small sample of bark at four locations at a tree’s base. A small number of observations only had 3 quadrants assessed. In this case, CKR was calculated by summing the number of quadrants with dead cambium, dividing the sum by number of quadrants measured, and then multiplying by 4. NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>GCA</attrlabl>
+        <attrdef>Average ground char rating. Four quadrants around each tree for soil heating severity, where 1= light ground char, 2= moderate ground char, and 3 = heavy ground char (has also been called deep ground char). The four ratings were averaged into one value of GCA. For more information see: Ryan, K. C., and N. V. Noste. 1985. Evaluating prescribed fires. Pages 230-238 in J. Lotan, B. M. Kilgore, W. C. Fischer, and R. W. Mutch, editors. Proceedings - symposium and workshop on wilderness fire. Missoula, MT, 15-18 November 1983. Gen. Tech. Rep. INT-182. U.S. Department of Agriculture, Forest Service, Intermountain Forest and Range Experiment Station, Ogden, UT.  NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>GIR_percent</attrlabl>
+        <attrdef>Estimated percent of tree girdled from heating at ground line (values = 0 to 100). NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DMR</attrlabl>
+        <attrdef>Dwarf mistletoe rating;  follows Hawksworth 0 - 6 scale. Hawksworth, F. G. 1977. The 6-class dwarf mistletoe rating system. GTR-RM-48. U.S. Department of Agriculture, Forest Service, Rocky Mountain Forest and Range Experiment Station, Fort Collins, CO. NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>BTL</attrlabl>
+        <attrdef>Presence or absence (presence=1, absence=0) of primary beetle species that can cause mortality of healthy trees. Species include Dendroctonus ponderosae, D. frontalis, D. adjunctus, D. brevicomis, D. frontalis, D. pseudotsugae, and D. rufipennis. NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>AB</attrlabl>
+        <attrdef>Ambrosia beetle presence or absence; Trypodendron sp., Gnathotrichus sp., Xyleborus sp. [Curculionidae: Scolytinae], Platypus sp. [Curculionidae: Platypodidae] (presence=1, absence=0). NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DFB</attrlabl>
+        <attrdef>Douglas-fir beetle presence or absence; Dendroctonus pseudotsugae; (presence=1, absence=0). NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FEN</attrlabl>
+        <attrdef>Fir engraver beetle presence or absence; Scolytus ventralis; (presence=1, absence=0). NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>IPS</attrlabl>
+        <attrdef>Ips beetle presence or absence; Coleoptera and Scolytidae; (presence=1, absence=0). NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MPB</attrlabl>
+        <attrdef>Mountain pine beetle presence or absence; Dendroctonus ponderosae; (presence=1, absence=0). NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>RPB</attrlabl>
+        <attrdef>Roundheaded pine beetle presence or absence; Dendroctonus adjunctus  (presence=1, absence=0). NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>RTB</attrlabl>
+        <attrdef>Red turpentine beetle presence or absence; Dendroctonus valens (presence=1, absence=0). NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SB</attrlabl>
+        <attrdef>Spruce beetle presence or absence; Dendroctonus rufipennis (presence=1, absence=0). NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>WPB</attrlabl>
+        <attrdef>Western pine beetle presence or absence; Dendroctonus brevicomis (presence=1, absence=0). NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>WB</attrlabl>
+        <attrdef>Woodborers presence or absence; Buprestidae and Cerambycidae; (presence=1, absence=0). NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SPB</attrlabl>
+        <attrdef>Southern pine beetle presence or absence; Dendroctonus frontalis (presence=1, absence=0). NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CVS_percent_source</attrlabl>
+        <attrdef>Denotes whether directly assessed in the field or calculated as described in FOFEM help document (F=field; C=calculated). NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CVK_percent_source</attrlabl>
+        <attrdef>Denotes whether directly assessed in the field or calculated as described in FOFEM help document. F= field; C=calculated. NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>FTM_fires.csv</enttypl>
+        <enttypd>The fire name, year, dataset contact, and location.</enttypd>
+        <enttypds>FTM</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>YrFireName</attrlabl>
+        <attrdef>Year and name of the fire.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Fire</attrlabl>
+        <attrdef>Name of fire. If the fire is in the Monitoring Trends in Burn Severity database, the MTBS exact name was used.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Dataset</attrlabl>
+        <attrdef>The name of the subset(s) of data that was contributed to the Fire and Tree Mortality (FTM) project. This is typically the name of the person who contributed the data to the FTM project but may be the agency that is the primary data steward.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>N</attrlabl>
+        <attrdef>The number of trees sampled in each fire-dataset combination.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>yr_fire</attrlabl>
+        <attrdef>year of fire</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Latitude</attrlabl>
+        <attrdef>Latiude. All location is to the scale of a fire event. If tree or plot coordinates were provided, we took the average of those coordinates to provide one coordinate for the fire event. If a fire name and year was provided, and no coordinates were provided, then we searched the Monitoring Trends in Burn Severity database (Monitoring Trends in Burn Severity 2019) for the fire, downloaded the fire geospatial data, and used the coordinates of the centroid of the fire perimeter for this analysis.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Longitude</attrlabl>
+        <attrdef>Longitude. All location is to the scale of a fire event. If tree or plot coordinates were provided, we took the average of those coordinates to provide one coordinate for the fire event. If a fire name and year was provided, and no coordinates were provided, then we searched the Monitoring Trends in Burn Severity database (Monitoring Trends in Burn Severity 2019) for the fire, downloaded the fire geospatial data, and used the coordinates of the centroid of the fire perimeter for this analysis.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Elevation</attrlabl>
+        <attrdef>Elevation of the geographic coordinates in meters.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>month_fire</attrlabl>
+        <attrdef>Numeric month fire started. NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>day_fire</attrlabl>
+        <attrdef>Numeric day fire started. NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Fire_type</attrlabl>
+        <attrdef>Type of fire (PNF = prescribed natural fire, or wildland fire use fire; a fire allowed to burn for resource benefit. For prescribed fires that escaped containment, we recorded whether fire was prescribed fire or wildfire at time the plot burned. RX = prescribed fire. Wild = wildfire). NA = not assessed.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>State</attrlabl>
+        <attrdef>Name of the state where the fire occurred.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Sample_design</attrlabl>
+        <attrdef>Sampling design (Fixed-area plot = all trees larger than or equal to a specified diameter threshold were sampled in a fixed-area plot; Individual tree = individual trees were sampled independently and not in a plot; Individual trees within plots = a certain number of trees were sampled within each plot; Nested fixed-area plot = trees in different diameter groups were sampled in different sized plots in the same location, typically larger trees in a larger plot and smaller trees in a smaller nested subplot; not available = sample design information was not available; Variable radius plot = all trees within the variable radius plot of the specified basal area factor were sampled in a plot)</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Plot_size_ha</attrlabl>
+        <attrdef>Values vary based on sample design. For fixed-area plots this field is the size of plot in hectares. Fixed-area plots also include studies where multiple smaller plots were used, but plot identification is only available for groups of pots and the same threshold diameter was used. In these cases we listed the total combined area of those plots and note the sample design. Individual tree sample design = NA. For individual trees within plots, this field contains text description of sampling methods. For nested fixed-area plots, multiple plot sizes are listed with the larger plot size listed first. For variable radius plots the metric BAF (Basal Area Factor) is listed and “BAF” is written after value to specify. Not available = information was not available.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Threshold_diameter_cm</attrlabl>
+        <attrdef>Values vary based on sample design. For plot-based studies, this is the minimum DBH (cm) of trees measured on the plot. For nested fixed-area plots, multiple values are listed, with the larger minimum DBH (cm) listed first, corresponding to the larger plot size. Not available = information was not available. For individual tree = NA.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Study_purpose</attrlabl>
+        <attrdef>The original purpose(s) of the contributed dataset. Studies may have been conducted for multiple purposes. Multiple purpose are separated by semicolon. Purposes include: Carbon Emissions; Fire Effects; Fire-insect Interactions; Fire-insect-disease Interactions; Forest Dynamics; Fuel Treatment Effects; Landscape variability; Remote Sensing; Tree Mortality; Tree Physiology; and Wildlife Response.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Questions</attrlabl>
+        <attrdef>Questions regarding data concerns or other comments.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Species_BarkThickness.csv</enttypl>
+        <enttypd>List of all species in the FTM database and the bark thickness information used to evaluate FOFEM version 6.4 model accuracy.</enttypd>
+        <enttypds>FTM</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>PLANTS_Species_Code</attrlabl>
+        <attrdef>Symbol for species. First two letters of genus and first two letters of species, sometimes followed by a number. Symbols follow those in the PLANTS National Database (http://plants.usda.gov).</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Genus_Species</attrlabl>
+        <attrdef>Genus and species of the tree assessed in the FTM database.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>BT_coef</attrlabl>
+        <attrdef>Bark thickness coefficient in FOFEM.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FOFEM BarkThicknessName</attrlabl>
+        <attrdef>Species name as listed in FOFEM.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FOFEM_BT_Code</attrlabl>
+        <attrdef>FOFEM bark thickness (BT) code. If species were grouped, then the BT codes were averaged.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>BT_Subsitution</attrlabl>
+        <attrdef>Bark thickness (BT) value substituted for FOFEM model validation if the species assessed is not listed in FOFEM.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Dataset_primary_contacts.csv</enttypl>
+        <enttypd>The dataset name as appears in the FTM database, primary contact, and email.</enttypd>
+        <enttypds>FTM</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Dataset</attrlabl>
+        <attrdef>The name of the subset of data that was contributed to the Fire and Tree Mortality (FTM) project. This is typically the name of the person who contributed the data to the FTM project but may be the agency that is the primary data steward.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Dataset_primary_contact</attrlabl>
+        <attrdef>The primary contact person of each dataset. (In a few cases, some additional information is also provided.)</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Primary_contact_email</attrlabl>
+        <attrdef>email of the primary contact for questions relating to the data contribution</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Dataset_citations.csv</enttypl>
+        <enttypd>The main citations for each contributed dataset in the FTM database for additional information about the data collected.</enttypd>
+        <enttypds>FTM</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Dataset</attrlabl>
+        <attrdef>The name of the subset of data that was contributed to the Fire and Tree Mortality (FTM) project. This is typically the name of the person who contributed the data to the FTM project but may be the agency that is the primary data steward.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Citation</attrlabl>
+        <attrdef>The formal citation that fully describes the methods and data in each dataset</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DOI</attrlabl>
+        <attrdef>The Digital Object Identifier assigned to this citation. In a few cases a Uniform Resource Locator (URL) is provided when a DOI was not available.</attrdef>
+        <attrdefs>FTM</attrdefs>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Below you will find a summary of the files included in this data publication. See the Entity and Attribute detailed section for a complete list and description of the variables included in each file.
+
+DATA FILES (5)
+
+1. \Data\Dataset_citations.csv: Comma-separated values (CSV) file containing the main citation for each contributed dataset in the FTM database for additional information about the data collected.
+
+2. \Data\Dataset_primary_contacts.csv: CSV file containing dataset names as they appear in the FTM database and the associated primary contact information.
+
+3. \Data\FTM_fires.csv: CSV file containing fire names, year, dataset contact, and location for fires in the FTM database. Fires for which there are two dataset contacts are listed twice.
+
+4. \Data\FTM_trees.csv: CSV file contains tree-level records of fire injury, tree size, and bark beetle attacks. The database is a compilation of 41 individual datasets, which are identified for each record.
+
+5. \Data\Species_BarkThickness.csv: CSV file containing the list of species found in the FTM database and the bark thickness information used to evaluate FOFEM version 6.4 model accuracy. (NOTE: for more information regarding these species, see The PLANTS Database)
+
+
+SUPPLEMENTAL FILES (1)
+
+1. \Supplements\FTM_Fulldatabase_firelocations.tif: Tagged Image Format file containing a map showing the location and fire year of the fires included in the FTM database.</eaover>
+      <eadetcit>Cansler, C. Alina; Hood, Sharon M.; Varner, J. Morgan; van Mantgem, Phillip J.; Agne, Michelle C.; Andrus, Robert A.; Ayres, Matthew P.; Ayres, Bruce D.; Bakker, Jonathan D.; Battaglia, Michael A.; Bentz, Barbara J.; Breece, Carolyn R.; Brown, James K.; Cluck, Daniel R.; Coleman, Tom W.; Corace, R. Gregory; Covington, W. Wallace; Cram, Douglas S.; Cronan, James B.; Crouse, Joseph E.; Das, Adrian J.; Davis, Ryan S.; Dickinson, Darci M.; Fitzgerald, Stephen A.; Fulé, Peter Z.; Ganio, Lisa M.; Grayson, Lindsay M.; Halpern, Charles B.; Hanula, Jim L.; Harvey, Brian J.; Hiers, J. Kevin; Huffman, David W.; Keifer, MaryBeth; Keyser, Tara L.; Kobziar, Leda N.; Kolb, Thomas E.; Kolden, Crystal A.; Kopper, Karen E.; Kreitler, Jason R.; Kreye, Jesse K.; Latimer, Andrew M.; Lerch, Andrew P.; Lombardero, Maria J.; McDaniel, Virginia L.; McHugh, Charles W.; McMillin, Joel D.; Moghaddas, Jason J.; O’Brien, Joseph J.; Perrakis, Daniel D.B.; Peterson, David W.; Prichard, Susan J.; Progar, Robert A.; Raffa, Kenneth F.; Reinhardt, Elizabeth D.; Restaino, Joseph C.; Roccaforte, John P.; Rogers, Brendan M.; Ryan, Kevin C.; Safford, Hugh D.; Santoro, Alyson E.; Shearman, Timothy M.; Shumate, Alice M.; Sieg, Carolyn H.; Smith, Sheri L.; Smith, Rebecca J.; Stephenson, Nathan L.; Steuver, Mary; Stevens, Jens T.; Stoddard, Michael T.; Thies, Walter G.; Vaillant, Nicole M.; Weiss, Shelby A.; Westlind, Douglas J.; Woolley, Travis J.; Wright, Michah C. 2020. The Fire and Tree Mortality Database, for empirical modeling of individual tree mortality after fire. Scientific Data 7: 194. https://doi.org/10.1038/s41597-020-0522-7</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USDA Forest Service, Research and Development</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>240 West Prospect Road</address>
+          <city>Fort Collins</city>
+          <state>CO</state>
+          <postal>80526</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>see Contact Instructions</cntvoice>
+        <cntpos>Research Data Archivist</cntpos>
+        <cntinst>This contact information was current as of October 2022. For current information see Contact Us page on: https://doi.org/10.2737/RDS.</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>RDS-2020-0001-2</resdesc>
+    <distliab>Metadata documents have been reviewed for accuracy and completeness. Unless otherwise stated, all data and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. However, neither the author, the Archive, nor any part of the federal government can assure the reliability or suitability of these data for a particular purpose. The act of distribution shall not constitute any such warranty, and no responsibility is assumed for a user's application of these data or related materials.
+
+The metadata, data, or related materials may be updated without notification. If a user believes errors are present in the metadata, data or related materials, please use the information in (1) Identification Information: Point of Contact, (2) Metadata Reference: Metadata Contact, or (3) Distribution Information: Distributor to notify the author or the Archive of the issues.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>CSV</formname>
+          <formvern>see Format Specification</formvern>
+          <formspec>Comma-separated values file</formspec>
+          <filedec>Files zipped with 7-Zip 19.0</filedec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.2737/RDS-2020-0001-2</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>TIFF</formname>
+          <formvern>see Format Specification</formvern>
+          <formspec>Tagged Image Format file</formspec>
+          <filedec>Files zipped with 7-Zip 19.0</filedec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.2737/RDS-2020-0001-2</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20221007</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>C. Alina Cansler</cntper>
+          <cntorg>USDA Forest Service, Rocky Mountain Research Station (FTM database development done under RMRS)</cntorg>
+        </cntperp>
+        <cntpos>Research Scientist at University of Washington</cntpos>
+        <cntemail>acansler@uw.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Sharon Hood</cntper>
+          <cntorg>USDA Forest Service, Rocky Mountain Research Station</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>5775 Hwy 10 W</address>
+          <city>Missoula</city>
+          <state>MT</state>
+          <postal>59808</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntpos>Research Ecologist</cntpos>
+        <cntvoice>406-329-4818</cntvoice>
+        <cntemail>sharon.hood@usda.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001.1-1999</metstdv>
+  </metainfo>
+</metadata>
