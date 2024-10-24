@@ -53,8 +53,22 @@ This figure shows geographically, where data was collected via remote sensing on
 This, while essantially the same as the previous, shows data where researchers collected plot data in the field. These are distinguhed via sampling method form in the dataset. 
 
 
-Historical fire data here: https://www.ncei.noaa.gov/products/paleoclimatology/fire-history
-once they recover from the hurricane.
+Historical fire data here: https://www.ncei.noaa.gov/products/paleoclimatology/fire-history -- once they recover from the hurricane.
+
+**FIA DataMart Abbreviation Helpful Names:**
++ CN == Sequence Number (reading number, each is unique to each table)  
++ PLOT == Plot # -- we could use this to link datasets together.  
++ PLT_CN == Plot Sequence # -- could maybe also be used to link data sets together.
++ RSCD == Region or Station code -- also useful in combining datasets and seeing if they're in the correct region.
++ SEVERITY1_CD_PNWRS == Severity of damage type 1 (there are also damage types 1, 1A, 1B, 2, 2A, 2B, & 3). We should find an understanding of what each of these damage types truly is. Could be a very useful metric.
++ SICOND == site index for condition.
++ SISP == site index species code.
++ SITETREE_TREE == site tree number, if we can link individual tree numbers this could be useful, but also take a TON of time and data processing. It may make more sense to consider the forest as a whole organism rather than individual trees.
++ SPCD == species code.
+  
+
+
+
 
 
 
