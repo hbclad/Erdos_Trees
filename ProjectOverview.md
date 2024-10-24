@@ -15,4 +15,7 @@ NOAA historical fire data: https://www.ncei.noaa.gov/products/paleoclimatology/f
 
 (If needed) NIFC historical fire data: https://data-nifc.opendata.arcgis.com/search?tags=historic_wildlandfire_opendata%2CCategory
 
-USDA Research Data Archive - fire recovery study in Maine
+USDA Research Data Archive - fire recovery study in Maine  
+
+### Model Selection/Machine Learning Process:  
+*What choice of model/regression type would we use to process this?* It's unlikely that a linear regression could be useful, but not fully accurate on predictive learning. Classification would be difficult unless we developed a ground truth classifcation for healthy, unhealthy, and in-between and classifed on a numerical or similar value. Given the nature of our data, a Time Series approach wouldn't be useful as our data isn't chaning in time.. UNLESS we determine some sort of function in time for regenration, then a time-series predeiction would be a useful metric. To fully establish our model selection and ML process we need to get the data hammered out and selected. Though my worries still stand that combining datasets can result in widly wrong/inaccurate data and thus the rest of our project.  
