@@ -65,6 +65,7 @@ Historical fire data here: https://www.ncei.noaa.gov/products/paleoclimatology/f
 + SISP == site index species code.
 + SITETREE_TREE == site tree number, if we can link individual tree numbers this could be useful, but also take a TON of time and data processing. It may make more sense to consider the forest as a whole organism rather than individual trees.
 + SPCD == species code.
++ 
   
 
 
