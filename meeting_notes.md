@@ -3,7 +3,7 @@
 ### Items Discussed:
 + Since indivdual tree data greatly reduces dataset size, consider predicting the density of trees using `TPA_UNADJ` feature (trees per acre, unadjusted).  
     + If the forest is healthy at some point then burns, so we can predict the return to that health statistic. 
-    + could look at maximum health density via the carrying capacity via trees that haven't burned. Can also apply a logistical model to make predictions on healthy forest continuation.  
+    + Could look at maximum health density via the carrying capacity via trees that haven't burned. Can also apply a logistical model to make predictions on healthy forest continuation.  
 + Examine how long between forest burns, i.e time between burns and what health looks like in that time.  
 + With regard to carrying capacity as an idicator of health given the `TPA_UNADJ` feature, it can be valuable to have data that is several years apart that didn't burn as a control. This shows us how a healthly forest contiunes along.   
     + Would be useful to one-hot encode plots/time combonations that did or did not burn.  
