@@ -20,3 +20,29 @@
 ### Questions: 
 **@ Henry:** In compiling the PLOT_FIRE_GIS dataset, why did you use incident name? Did you consider object ID or some other unique identifier? 
 
+
+
+## 11/11/24 Meeting Notes
+
+### Items Discussed:
++ *Best Features for Predicting:* diameter (at breast, which is at least 4ft off the ground), height, above ground biomass, cull & previous cull.
+    + Would predict these features on indivdual trees rather than TPA since that seemed to just be a code rather than a value.
++ Trees measured more than once is ~12.6% of the whole dataset (assuming this is in fire-sandwhiches set).
+    + Approx 20868 trees now compose working dataset.  
+    + Approx 14% of trees in fires were only measured once. This is a consideration/statistic that should be addressed in a final report/presentation.
+    + How many trees in this set have had > 2 measurements?
+    + How many trees in this set are past due, it's been longer than 10 years since a last measurement, for a remeasurement.
++ Potnetial predictors: need to consider time since the fire --> time between fires and first measurement.
+    + Should also consider how to handle plots that have burned multiple times between measurement years. It was suggested that we throw those out or classify them differently since it would greatly affect a predictor.
++ **Features also discussed to be used:** consider the time since a fire and then create a time that is measure_year1 - fire - measureyear2 to understand growing time of each tree after fire. Could serve as another feature column.
+    + can also consider the condition of each plot before and after fire. This would also be a interesting thing to value like 1, 2, or 3 based on plot condition.
+    + Water: seperate perm from temporary from no water on plot => affects plot condition and tree re-growth. This would also be affected by elevation.
+
+### Tasks:
++ Select features to predict on from literature/documentation -- Christina.
++ Construct list of ML models to throw at the dataset -- Open/Ella.
++ Investigate the water data -- Ella.
++ Investigate which plots have been measured how many times -- Allie/Henry.  
+
+### Goals for after future Meeting:
+Next meeting is 11am CT on Weds November 13. *Goal is to have a complete .csv file that all have access to and can start throwing ML models at*. 
