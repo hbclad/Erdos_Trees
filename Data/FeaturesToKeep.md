@@ -26,7 +26,7 @@ SEVERITY1_CD_PNWRS - and 2 and 3, severity of associated damage. (the A and B fe
 
 AGENTCD - cause of death (for dead trees only), code 30 is fire <br>
 MORTYR - year of death, estimated <br>
-RECONCILECD - can contain reasons a tree was not remeasured
+~~RECONCILECD - can contain reasons a tree was not remeasured~~
 
 
 ## From PLOT:
