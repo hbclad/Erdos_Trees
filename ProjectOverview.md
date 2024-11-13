@@ -1,4 +1,6 @@
-Research Question: Can we predict future forest long-term health following a fire given soil make-up/quality and historical forest health? Project Plan: We plan to investigate if we can can predict forest regeneration via overall tree health and soil-makeup data following a forest fire. We plan to investigate geographical areas in the United States where major fires are present, such as Washington, Oregon, & Idaho.
+## Survive or Thrive: Predicting Tree Health Following Forest Fires in Washington State:
+### Research Question: 
+Can we predict future forest long-term health following a fire given soil make-up/quality and historical forest health? Project Plan: We plan to investigate if we can can predict forest regeneration via overall tree health and soil-makeup data following a forest fire. We plan to investigate geographical areas in the United States where major fires are present, such as Washington, Oregon, & Idaho.
 
 ### Stakeholders:
 Forestry service, disaster mitigation groups, commercial logging, environmentalists
