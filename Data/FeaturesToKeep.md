@@ -11,7 +11,7 @@ CULL - (existing) extent of damage/deformation <br>
 DRYBIO_AG - oven-dry biomass aboveground <br>
 CR - compacted crown ratio: percent of bole supporting healthy foliage <br>
 CCLCD - crown class code: 1-5, where 1s are taller than all surroundings and get lots of light, and 5s are shorter than surroundings and get no direct light <br>
-CDENCD - crown density code: percent of visibility blocked by foliage <br>
+~~CDENCD - crown density code: percent of visibility blocked by foliage~~ <br>
 ~~EPIPHYTE_PNWRS - extent of epiphytes (e.g. ivy?) on the tree, rated 0-6. Could make it more likely to burn?~~
 
 #### Existing damage indicators:
