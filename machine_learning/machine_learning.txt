@@ -1,1 +1,0 @@
- This file contains the attempts and work done on the Data Science/Machine Learning approach of this project. Each ipynb contains an annotated attempt. 
