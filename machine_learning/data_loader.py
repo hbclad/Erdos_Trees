@@ -29,7 +29,7 @@ def data_load_and_split(big_data = pd.read_csv("../Data/final_big_data.csv"),
     trimmed_firstMeas_train, trimmed_firstMeas_test = train_test_split(trimmed_data_firstMeas, test_size=test_size,
                                                                random_state=random_state, shuffle=True)
     #Now we should match up second measurements so that they are in the same train/test set as the
-    #first measurement on the same tree
+    #first measurement on the same tree-- Need to add PREV_TRE_CN back into the trimmed dataset..
     big_secondMeas_train = big_data_secondMeas[big_data_secondMeas['PREV_TRE_CN'].isin(big_firstMeas_train['CN'])]
     big_secondMeas_test = big_data_secondMeas[big_data_secondMeas['PREV_TRE_CN'].isin(big_firstMeas_test['CN'])]
     trimmed_secondMeas_train = trimmed_data_secondMeas[trimmed_data_secondMeas['PREV_TRE_CN'].isin(trimmed_firstMeas_train['CN'])]
