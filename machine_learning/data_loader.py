@@ -18,6 +18,22 @@ def data_load_and_split(big_data = pd.read_csv("../Data/final_big_data.csv"),
     Returns:
     - X_train, X_test, y_train, y_test: Split data (X and y)
     """
-    trimmed_train, trimmed_test = train_test_split(trimmed_data, test_size=test_size, random_state=random_state, shuffle = True)
-    big_train, big_test = train_test_split(big_data, test_size=test_size, random_state=random_state, shuffle = True)
-    return trimmed_train, trimmed_test, big_train, big_test
+    #Separate each dataset into the first and second measurements
+    big_data_firstMeas = big_data[pd.isna(big_data['INCIDENT1'])]
+    big_data_secondMeas = big_data[~pd.isna(big_data['INCIDENT1'])]
+    trimmed_data_firstMeas = trimmed_data[pd.isna(trimmed_data['INCIDENT1'])]
+    trimmed_data_secondMeas = trimmed_data[~pd.isna(trimmed_data['INCIDENT1'])]
+    #Perform the train_test_split on the first measurements 
+    big_firstMeas_train, big_firstMeas_test = train_test_split(big_data_firstMeas, test_size=test_size,
+                                                               random_state=random_state, shuffle=True)
+    trimmed_firstMeas_train, trimmed_firstMeas_test = train_test_split(trimmed_data_firstMeas, test_size=test_size,
+                                                               random_state=random_state, shuffle=True)
+    #Now we should match up second measurements so that they are in the same train/test set as the
+    #first measurement on the same tree-- Need to add PREV_TRE_CN back into the trimmed dataset..
+    big_secondMeas_train = big_data_secondMeas[big_data_secondMeas['PREV_TRE_CN'].isin(big_firstMeas_train['CN'])]
+    big_secondMeas_test = big_data_secondMeas[big_data_secondMeas['PREV_TRE_CN'].isin(big_firstMeas_test['CN'])]
+    trimmed_secondMeas_train = trimmed_data_secondMeas[trimmed_data_secondMeas['PREV_TRE_CN'].isin(trimmed_firstMeas_train['CN'])]
+    trimmed_secondMeas_test = trimmed_data_secondMeas[trimmed_data_secondMeas['PREV_TRE_CN'].isin(trimmed_firstMeas_test['CN'])]
+
+    return (big_firstMeas_train, big_secondMeas_train, big_firstMeas_test, big_secondMeas_test, 
+            trimmed_firstMeas_train, trimmed_secondMeas_train, trimmed_firstMeas_test, trimmed_secondMeas_test)
