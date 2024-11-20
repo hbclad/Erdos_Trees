@@ -1,11 +1,12 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-def data_load_and_split(big_data = pd.read_csv("../Data/final_big_data.csv"), 
-                        trimmed_data = pd.read_csv('../Data/trimmed_data.csv'), 
+def data_load_and_split(big_data, 
+                        trimmed_data, 
                         test_size = 0.2, 
                         random_state = 216
                         ):
+
     """
     Loads our data frames (both large and trimmed), performs a train-test split on both, and returns the splits.
     
@@ -17,12 +18,13 @@ def data_load_and_split(big_data = pd.read_csv("../Data/final_big_data.csv"),
     
     Returns:
     - X_train, X_test, y_train, y_test: Split data (X and y)
+
     """
     #Separate each dataset into the first and second measurements
-    big_data_firstMeas = big_data[pd.isna(big_data['INCIDENT1'])]
-    big_data_secondMeas = big_data[~pd.isna(big_data['INCIDENT1'])]
-    trimmed_data_firstMeas = trimmed_data[pd.isna(trimmed_data['INCIDENT1'])]
-    trimmed_data_secondMeas = trimmed_data[~pd.isna(trimmed_data['INCIDENT1'])]
+    big_data_firstMeas = big_data[pd.isna(big_data['PREV_TRE_CN'])]
+    big_data_secondMeas = big_data[~pd.isna(big_data['PREV_TRE_CN'])]
+    trimmed_data_firstMeas = trimmed_data[pd.isna(trimmed_data['PREV_TRE_CN'])]
+    trimmed_data_secondMeas = trimmed_data[~pd.isna(trimmed_data['PREV_TRE_CN'])]
     #Perform the train_test_split on the first measurements 
     big_firstMeas_train, big_firstMeas_test = train_test_split(big_data_firstMeas, test_size=test_size,
                                                                random_state=random_state, shuffle=True)
