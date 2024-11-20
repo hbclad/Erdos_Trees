@@ -1,8 +1,8 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-def data_load_and_split(big_data, 
-                        trimmed_data, 
+def data_load_and_split(big_data=pd.read_csv('../Data/final_big_data.csv'), 
+                        trimmed_data= pd.read_csv('../Data/trimmed_data.csv'), 
                         test_size = 0.2, 
                         random_state = 216
                         ):
