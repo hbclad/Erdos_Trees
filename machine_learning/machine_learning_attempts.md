@@ -2,6 +2,7 @@
 Here we can put which ideas and models we have tried along with their performance stats:
 accuracy, precision, error rates, etc.  
 
+In all models lets set random_state = 216 for reproducibility.  
 
 ## Allie
 
