@@ -5,6 +5,8 @@ accuracy, precision, error rates, etc.
 In all models lets set random_state = 216 for reproducibility.  
 
 ## Allie
+- Used Dummy Classifer with strategy: stratified for baseline
+  - Accuracy: 58%
 - SVC : Predicting dead vs alive using STATUSCD 
    - I first dropped all of the trees where the first measurement was dead and trees where second measurement was not recorded (code 0), or was recorded as removed by humans (code 3).
    - Then did pairplot to see which features I could use
