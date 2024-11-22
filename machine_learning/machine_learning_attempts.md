@@ -13,6 +13,7 @@ In all models lets set random_state = 216 for reproducibility.
    - Ended with mean CV accuracy of 75.1% with an optimal C value of 50 (higher C prioritizes correct classification with narrower margins)
    - Conclusion: This could be useful, but might be nice to do pca beforehand to see what that gives us next
 ## Christina 
+- KNN predicting cull and alive status
 
 ## Ella
 
