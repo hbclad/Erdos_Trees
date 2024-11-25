@@ -5,15 +5,18 @@ accuracy, precision, error rates, etc.
 In all models lets set random_state = 216 for reproducibility.  
 
 ## Allie
-- Used Dummy Classifer with strategy: stratified for baseline
-  - Accuracy: 58%
-- SVC : Predicting dead vs alive using STATUSCD 
-   - I first dropped all of the trees where the first measurement was dead and trees where second measurement was not recorded (code 0), or was recorded as removed by humans (code 3).
-   - Then did pairplot to see which features I could use
-      - Features I ended up using were "ELEV","YRS_SINCE_BURN","HT_pre_burn","Number_of_Fires","CULL_pre_burn"
-   - performed k fold cross validation with n=5 to find optimal C value
-   - Ended with mean CV accuracy of 75.1% with an optimal C value of 50 (higher C prioritizes correct classification with narrower margins)
-   - Conclusion: This could be useful, but might be nice to do pca beforehand to see what that gives us next
+- Used Dummy Classifer with strategy: stratified and most frequent for baseline
+  - Stratified: chooses from a probability distribution based on the proportion of each class in the training set
+      - Gives Accuracy of 61%
+  - Most: Frequent: classifies all as most frequent class in training
+      - Gives Accuracy of 72%
+- SVC : Predicting dead vs alive using STATUSCD .
+   - Features I ended up using were "ELEV","HT_pre_burn","BURN_AREA_TOTAL"
+      - I tried all combos of this including just using "ELEV", etc
+      - I tried including CULL_pre_burn and this worsened accuracy
+   - performed k fold cross validation with n=5 to find optimal C value and best kernel
+   - Conclusion: Kernel RBF with C=70 gives accuracy of 75.8%
+
 ## Christina 
 - KNN predicting cull and alive status
 
