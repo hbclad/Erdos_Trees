@@ -59,10 +59,10 @@ def data_merge(pre_burn, post_burn,
     data_merge(trimmed_firstMeas_train, trimmed_secondMeas_train), and the same for the test data.
     
     '''
-    pre_burn.drop("Unnamed: 0", axis = 1, inplace = True)
-    post_burn.drop("Unnamed: 0", axis = 1, inplace = True)
+    pre_burn_no_mystery_col = pre_burn.drop("Unnamed: 0", axis = 1)
+    post_burn_no_mystery_col = post_burn.drop("Unnamed: 0", axis = 1)
 
-    combined = pre_burn.merge(post_burn, left_on = "CN", right_on = "PREV_TRE_CN", suffixes = ("_pre_burn", "_post_burn"))
+    combined = pre_burn_no_mystery_col.merge(post_burn_no_mystery_col, left_on = "CN", right_on = "PREV_TRE_CN", suffixes = ("_pre_burn", "_post_burn"))
     combined.dropna(axis = 1, how = "all", inplace = True)
 
     # Checking the merge and removing redundant identifiers
@@ -119,7 +119,7 @@ def data_merge(pre_burn, post_burn,
     combined = combined[~((combined['STATUSCD_post_burn'] == 3) | (combined['STATUSCD_post_burn'] == 0))]
     
     meta_features = ["CN"]
-    outcome_features = ["CONDID_post_burn", "CULL_post_burn"] 
+    outcome_features = ["ALIVE_post_burn", "CULL_post_burn"] 
     mini_combined = combined[meta_features + indicator_features + outcome_features]
 
     if return_mini:
