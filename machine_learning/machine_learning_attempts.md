@@ -18,6 +18,7 @@ In all models lets set random_state = 216 for reproducibility.
 - KNN predicting cull and alive status
 
 ## Ella
+- Throwing linear models at it today to predict on cull w alive/dead. 
 
 ## Henry 
 - I'm going to add the most recent fire year and size, along with the number of fires in between measurements as features to predict on. 
