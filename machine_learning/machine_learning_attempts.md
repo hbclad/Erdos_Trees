@@ -18,7 +18,21 @@ In all models lets set random_state = 216 for reproducibility.
    - Conclusion: Kernel RBF with C=70 gives accuracy of 75.8%
 
 ## Christina 
-- KNN predicting cull and alive status
+KNN classifying living/dead, best outcomes for specified feature sets:
+- 78.9% with all indicator_features in the merged data and 4 neighbors
+- 81.0% with ["CULL_pre_burn", "ELEV", "SOFTWOOD", "BURN_AREA_TOTAL"] and 8 neighbors
+    - far worse with NUM_BURNS instead of BURN_AREA_TOTAL (low 70s)
+- 81.5% with ["ELEV", "SOFTWOOD", "BURN_AREA_TOTAL"] and 8 neighbors
+    - Adding YRS_SINCE_BURN helps by another % point, HOWEVER this is most likely due to data leakage;
+    trees with a higher delay in measuring were probably more likely to have been removed, or impossible
+    to locate when it was time to resample.
+
+KNN regressing for CULL:
+- Almost all scores I calculated were under 0.1. This indicates KNN may not be very effective method of predicting CULL. However, some models were consistently above 0, so they are still more accurate than a mean regressor.
+- .083 using all features, 17 neighbors
+- .082 using ["CULL_pre_burn", "ELEV", "SOFTWOOD", "YRS_SINCE_BURN", "BURN_AREA_TOTAL"], 17 neighbors
+    - adding in DIA or HT made it worse
+- .101 using ["CULL_pre_burn", "DRYBIO_AG_pre_burn", "ELEV", "SOFTWOOD", "YRS_SINCE_BURN", "BURN_AREA_TOTAL"] and 18 neighbors
 
 ## Ella
 - Throwing linear models at it today to predict on cull w alive/dead. 
