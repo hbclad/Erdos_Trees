@@ -45,9 +45,10 @@ KNN regressing for CULL:
       - 
 
 ## Henry 
-- I'm going to add the most recent fire year and size, along with the number of fires in between measurements as features to predict on. 
-- Maybe use one binary model to choose between alive and dead, then another trained on alive trees to specify damages to the alive tree.  
-- I'm going to look at CATBOOST, which is a decision tree boosting algorithm for datasets with a lot of categorical variables
-- Seems like decision trees could be good in general, then bagging.  
+- Made a decision tree using RandomizedSearchCV, which does random parameter search for max_depth and num_estimators with a stratified 5 Kfold split.  The best tree found was (17,260) with a mean accuracy on the Kfolds of 82%.  Accuracy on testing set is 81%.  
+- Feature importances show that ELEV, BURN_AREA, DRYBIO_AG, HT_pre_burn, DIA, YRS_since_burn are the most common features in the decision forest.  With num_burns and cull_pre_burn having much less importance.  
+- Thinking about predicting DIA or HT post_burn and comparing to expected growth rates using a linear model. After adding tree species to the model.  
+- Might add tree species to the model- seems like it would help.  
+
 
 
