@@ -40,7 +40,7 @@ KNN regressing for CULL:
 
 ## Ella
 - Throwing linear models at it today to predict on cull w alive/dead (unsuccesful due to the data missing in the CULL values)  
-- Built a "health" ```'TREECOND_pre_burn``` class based on the CR column. Health class will be extended upon after preliminary KNN investigation. This bullet point is working on status of post-burn ALIVE trees only. 
+- Built a "health" ```'TREECOND_pre_burn``` class based on the CR column. Health class will be extended upon after preliminary KNN investigation. This works on post burn ALIVE trees only. I'm working on getting the dead ones factored in.  
     - Using "health" based only on the CR value, baseline KNN (w/ choice features) accuracy score was 65% with k = 31 neighbors. Only searched up to 36 neighbors.  
         - Searching through at least 100 neighbors returned the accuracy & number of neighbors results.
         - Features: ```features = ['ELEV','TREECOND_pre_burn_encoded','DRYBIO_AG_pre_burn', 'DRYBIO_AG_post_burn', 'DIA_pre_burn', 'DIA_post_burn',
