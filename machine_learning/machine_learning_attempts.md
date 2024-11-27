@@ -5,6 +5,7 @@ accuracy, precision, error rates, etc.
 In all models lets set random_state = 216 for reproducibility.  
 
 ## Allie
+Predicting alive/dead
 - Used Dummy Classifer with strategy: stratified and most frequent for baseline
   - Stratified: chooses from a probability distribution based on the proportion of each class in the training set
       - Gives Accuracy of 61%
@@ -16,7 +17,10 @@ In all models lets set random_state = 216 for reproducibility.
       - I tried including CULL_pre_burn and this worsened accuracy
    - performed k fold cross validation with n=5 to find optimal C value and best kernel
    - Conclusion: Kernel RBF with C=70 gives accuracy of 75.8%
-
+Predicting Diameter post/burn
+- I used a mlr model and ridge model both with ["DIA_pre_burn","HT_pre_burn","DRYBIO_AG_pre_burn","BURN_AREA_TOTAL"] to predict DIA_post_burn.
+    - R2 scores of .98 for both
+ -Baseline model where just predict DIA_post_burn is same as DIA_pre_burn already works quite well with R2 score of .98 since diameter doesn't change much!
 ## Christina 
 KNN classifying living/dead, best outcomes for specified feature sets:
 - 78.9% with all indicator_features in the merged data and 4 neighbors
