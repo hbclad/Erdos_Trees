@@ -21,6 +21,10 @@ Predicting Diameter post/burn
 - I used a mlr model and ridge model both with ["DIA_pre_burn","HT_pre_burn","DRYBIO_AG_pre_burn","BURN_AREA_TOTAL"] to predict DIA_post_burn.
     - R2 scores of .98 for both
  -Baseline model where just predict DIA_post_burn is same as DIA_pre_burn already works quite well with R2 score of .98 since diameter doesn't change much!
+Predicting Height post/burn
+- I used a mlr model and ridge model both with ["DIA_pre_burn","HT_pre_burn","DRYBIO_AG_pre_burn","BURN_AREA_TOTAL"] to predict DIA_post_burn.
+    - R2 scores of .96 for both
+ -Baseline model where just predict DIA_post_burn is same as DIA_pre_burn already works quite well with R2 score of .94 since diameter doesn't change much!
 ## Christina 
 KNN classifying living/dead, best outcomes for specified feature sets:
 - 78.9% with all indicator_features in the merged data and 4 neighbors
