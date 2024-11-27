@@ -36,7 +36,11 @@ KNN regressing for CULL:
 
 ## Ella
 - Throwing linear models at it today to predict on cull w alive/dead (unsuccesful due to the data missing in the CULL values)  
-- Built a "health" class based on the CR column. Health class will be extended upon after preliminary KNN investigation.  
+- Built a "health" ```'TREECOND_pre_burn``` class based on the CR column. Health class will be extended upon after preliminary KNN investigation.
+    - Using "health" based only on the CR value, baseline KNN (w/ choice features) accuracy score was 0.65 with k = 31 neighbors. Only searched up to 36 neighbors.  
+        - Searching through at least 100 neighbors returned the accuracy & number of neighbors results.
+        - Features: ```features = ['ELEV','TREECOND_pre_burn_encoded','DRYBIO_AG_pre_burn', 'DRYBIO_AG_post_burn', 'DIA_pre_burn', 'DIA_post_burn',
+            'HT_pre_burn', 'HT_post_burn']```
 
 ## Henry 
 - I'm going to add the most recent fire year and size, along with the number of fires in between measurements as features to predict on. 
