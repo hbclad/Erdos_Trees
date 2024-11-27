@@ -43,8 +43,8 @@ KNN regressing for CULL:
             'HT_pre_burn', 'HT_post_burn']```
       - Using the same health indicator, but with all features we got an accuracy score of 0.69 with k = 1 neighbor.. certianly overfitting. Accuraccy declined rapidally to 0.64 after double digit neighbors.
       - Using a list of refined features, accuracy score increased to 0.79 with k = 3 neighbors, which is reasonable in my mind.
-          - ```refined_features = ['ELEV', 'CONDID_pre_burn','STATUSCD_pre_burn', 'SPCD_pre_burn', 'SPGRPCD_pre_burn','DIA_pre_burn', 'HT_pre_burn', 'DRYBIO_AG_pre_burn', 'CR_pre_burn',
-'CCLCD_pre_burn', 'CONDID_post_burn', 'STATUSCD_post_burn', 'SPCD_post_burn','SPGRPCD_post_burn', 'DIA_post_burn', 'HT_post_burn','DRYBIO_AG_post_burn', 'CR_post_burn', 'CCLCD_post_burn', 'NUM_BURNS', 'SOFTWOOD', 'HARDWOOD', 'TREECOND_pre_burn_encoded']```
+          - refined feature list can be found in my nb titled knnqualitystudy in the ML folder.
+      - 
 
 ## Henry 
 - Made a decision tree using RandomizedSearchCV, which does random parameter search for max_depth and num_estimators with a stratified 5 Kfold split.  The best tree found was (17,260) with a mean accuracy on the Kfolds of 82%.  Accuracy on testing set is 81%.  
