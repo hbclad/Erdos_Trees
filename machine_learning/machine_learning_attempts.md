@@ -49,11 +49,12 @@ KNN regressing for CULL:
         - Searching through at least 100 neighbors returned the accuracy & number of neighbors results.
         - Features: ```features = ['ELEV','TREECOND_pre_burn_encoded','DRYBIO_AG_pre_burn', 'DRYBIO_AG_post_burn', 'DIA_pre_burn', 'DIA_post_burn',
             'HT_pre_burn', 'HT_post_burn']```
-      - Using the same health indicator, but with all features we got an accuracy score of 69% with k = 1 neighbor.. certianly overfitting. Accuraccy declined rapidally to 0.64 after double digit neighbors.
-      - Using a list of refined features, accuracy score increased to 80% with k = 6 neighbors, which is reasonable in my mind.
+      - ~~Using the same health indicator, but with all features we got an accuracy score of 69% with k = 1 neighbor.. certianly overfitting. Accuraccy declined rapidally to 0.64 after double digit neighbors.~~
+      - ~~Using a list of refined features, accuracy score increased to 80% with k = 6 neighbors, which is reasonable in my mind.~~
           - refined feature list can be found in my nb titled knnqualitystudy in the ML folder.
       - Attemped a PCA with 2 features to investigate if our data is PCA friendly -- it's not. The result is well presented in the previously refrenced nb in the ML folder.
-      - Attempted LDA as a pre-processor, when plotting this seperated our data incredibly well. Then applying a KNN classifer I was able to get **97.2% accuracy with k = 37 neighbors**. This model, even with less than 10 neighbors still performs at nearly 95% accuracy. The LDA worked well on our data due to the strong linearity of our features.. Results presented in the previously refrenced nb in the ML folder. Yeet. 🥳
+      - ~~Attempted LDA as a pre-processor, when plotting this seperated our data incredibly well. Then applying a KNN classifer I was able to get 97.2% accuracy with k = 37 neighbors. This model, even with less than 10 neighbors still performs at nearly 95% accuracy. The LDA worked well on our data due to the strong linearity of our features.. Results presented in the previously refrenced nb in the ML folder. Yeet. 🥳~~
+      - Baseline accuracy remains about 67% :( 
 
 ## Henry 
 - Made a decision tree using RandomizedSearchCV, which does random parameter search for max_depth and num_estimators with a stratified 5 Kfold split.  The best tree found was (17,260) with a mean accuracy on the Kfolds of 82%.  Accuracy on testing set is 81%.  
