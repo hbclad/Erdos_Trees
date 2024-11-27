@@ -35,7 +35,8 @@ KNN regressing for CULL:
 - .101 using ["CULL_pre_burn", "DRYBIO_AG_pre_burn", "ELEV", "SOFTWOOD", "YRS_SINCE_BURN", "BURN_AREA_TOTAL"] and 18 neighbors
 
 ## Ella
-- Throwing linear models at it today to predict on cull w alive/dead. 
+- Throwing linear models at it today to predict on cull w alive/dead (unsuccesful due to the data missing in the CULL values)  
+- Built a "health" class based on the CR column. Health class will be extended upon after preliminary KNN investigation.  
 
 ## Henry 
 - I'm going to add the most recent fire year and size, along with the number of fires in between measurements as features to predict on. 
