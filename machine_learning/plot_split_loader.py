@@ -169,6 +169,8 @@ def plotwise_kfold(train, n_splits=5, random_state=216, shuffle=True):
         
         tree_tt = train[train["PLOT"].isin(plot_tt)]
         tree_val = train[train["PLOT"].isin(plot_val)]
-        folds.append((tree_tt,tree_val))
+        train_indices = np.flatnonzero(train["PLOT"].isin(plot_tt))
+        test_indices = np.flatnonzero(train["PLOT"].isin(plot_val))
+        folds.append((train_indices, test_indices))
     
     return folds
