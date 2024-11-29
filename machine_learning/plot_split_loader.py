@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
-from sklearn.model_selection import train_test_split, StratifiedKFold 
+from sklearn.model_selection import train_test_split, StratifiedKFold,BaseCrossValidator
+
 
 
 def data_merge(pre_burn, post_burn,
@@ -172,5 +173,33 @@ def plotwise_kfold(train, n_splits=5, random_state=216, shuffle=True):
         train_indices = np.flatnonzero(train["PLOT"].isin(plot_tt))
         test_indices = np.flatnonzero(train["PLOT"].isin(plot_val))
         folds.append((train_indices, test_indices))
-    
+
     return folds
+
+
+
+class PlotwiseKFold(BaseCrossValidator):
+    '''
+    This class is created so we can use the PlotwiseKfold In GridSearch CV, etc just a like a Kfold object
+
+    For example, to instatiate the plotwiseKfold object, state the following code:
+    plotwise_cv = PlotwiseKFold(train_data=combined_train, n_splits=5)
+
+    '''
+    
+    def __init__(self, train_data, n_splits=5, random_state=216, shuffle=True):
+        self.train_data = train_data
+        self.n_splits = n_splits
+        self.random_state = random_state
+        self.shuffle = shuffle
+
+    def get_n_splits(self, X=None, y=None, groups=None):
+
+        return self.n_splits
+
+    def split(self, X, y=None, groups=None):
+
+        folds = plotwise_kfold(self.train_data, n_splits=self.n_splits, random_state=self.random_state, shuffle=self.shuffle)
+        
+        for train_indices, test_indices in folds:
+            yield train_indices, test_indices
