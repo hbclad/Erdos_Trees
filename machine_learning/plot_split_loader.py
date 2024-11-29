@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from sklearn.model_selection import train_test_split 
+from sklearn.model_selection import train_test_split, StratifiedKFold 
 
 
 def data_merge(pre_burn, post_burn,
@@ -77,7 +77,7 @@ def data_merge(pre_burn, post_burn,
     # Removing trees that were removed or nonsampled after burn
     combined = combined[~((combined['STATUSCD_post_burn'] == 3) | (combined['STATUSCD_post_burn'] == 0))]
     
-    meta_features = ["CN"]
+    meta_features = ["CN","PLOT"]
     outcome_features = ["ALIVE_post_burn", "CULL_post_burn"] 
     mini_combined = combined[meta_features + indicator_features + outcome_features]
 
@@ -97,7 +97,12 @@ def plotwise_split(big_data_path = '../Data/final_big_data.csv',
                    ):
     """
     Loads data from our CSV files (the file with only relevant features by default,
-    the one with all columns if 'trimmed' is set to False). 
+    the one with all columns if 'trimmed' is set to False). Performs a train-test split,
+    keeping trees from the same PLOT together in the split to avoid the generalization issues
+    caused each PLOT having very consistent outcomes. This way, trees in the test set will 
+    not have a 'sister' tree 10 feet away in the training set which the model can use to predict.
+    Size of the test set will approximate the test_size, but may be less exact than the vanilla 
+    sklearn function.
     
     Returns 4 dataframes in order: training trees first measurement, second measurement, then
     test trees first and second measurement. Run these pairs through data_merge to 
@@ -135,3 +140,35 @@ def plotwise_split(big_data_path = '../Data/final_big_data.csv',
     test_trees_2 = second_meas[second_meas['PLOT'].isin(test_plots)]
     
     return train_trees_1, train_trees_2, test_trees_1, test_trees_2
+
+
+
+def plotwise_kfold(train, n_splits=5, random_state=216, shuffle=True):
+    '''
+    For a merged set of tree data which includes a PLOT column, split into K folds of
+    approximately equal size, keeping PLOTs separated as with plotwise_split. Returns
+    a list of n_splits pairs of dataframes in the format (train, val). The three optional
+    parameters are passed to the KFold object.
+
+    THIS RETURNS DATAFRAMES. I could not figure out how to get it to do the indexes like KFold
+    usually would. You will have to adjust your code slightly to use this one.
+    '''
+
+    plot_counts = pd.DataFrame(train["PLOT"].value_counts())
+
+    total_plots = len(plot_counts)
+    plot_counts["new index"] = range(total_plots) # adds a column counting up from 0
+    plot_counts["decile bin"] = np.floor((total_plots - plot_counts["new index"] - 1) * 10 / total_plots)
+
+    plot_kfold = StratifiedKFold(n_splits=n_splits, random_state=random_state, shuffle=shuffle)
+
+    folds = []
+    for train_index, test_index in plot_kfold.split(plot_counts, plot_counts['decile bin']):
+        plot_tt = plot_counts.index[train_index] # recall that 'index' for the value_counts df
+        plot_val = plot_counts.index[test_index] # is the column that was being counted
+        
+        tree_tt = train[train["PLOT"].isin(plot_tt)]
+        tree_val = train[train["PLOT"].isin(plot_val)]
+        folds.append((tree_tt,tree_val))
+    
+    return folds
