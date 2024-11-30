@@ -10,13 +10,13 @@ Predicting alive/dead
   - Stratified: chooses from a probability distribution based on the proportion of each class in the training set
       - Gives Accuracy of 61%
   - Most: Frequent: classifies all as most frequent class in training
-      - Gives Accuracy of 72%
+      - Gives Accuracy of 72.8%
 - SVC : Predicting dead vs alive using STATUSCD .
    - Features I ended up using were "ELEV","HT_pre_burn","BURN_AREA_TOTAL"
       - I tried all combos of this including just using "ELEV", etc
       - I tried including CULL_pre_burn and this worsened accuracy
-   - performed k fold cross validation with n=5 to find optimal C value and best kernel
-   - Conclusion: Kernel RBF with C=70 gives accuracy of 75.8%
+   - performed k fold cross validation with n=5 (plotwise_kfold in data_loader)
+   - Conclusion: Kernel poly with C=.1, gamma=.1, coef0=5.1, and degree=3 gives accuracy of 72.9%
 Predicting Diameter post/burn
 - I used a mlr model and ridge model both with ["DIA_pre_burn","HT_pre_burn","DRYBIO_AG_pre_burn","BURN_AREA_TOTAL"] to predict DIA_post_burn.
     - R2 scores of .98 for both
